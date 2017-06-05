@@ -1,0 +1,1360 @@
+﻿Log file open, 06/01/17 13:49:07
+LogInit:Display: Running engine for game: TheWalkingDeadPro
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1507687364) SRandInit(1507687364).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089685
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.01-11.49.08:198][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.01-11.49.08:198][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.01-11.49.08:207][  0]LogInit: Computer: ALIENWARE
+[2017.06.01-11.49.08:207][  0]LogInit: User: bilal
+[2017.06.01-11.49.08:207][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.01-11.49.08:207][  0]LogInit: High frequency timer resolution =2.648436 MHz
+[2017.06.01-11.49.08:208][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.01-11.49.08:208][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.01-11.49.08:208][  0]LogMemory: Process Physical Memory: 274.26 MB used, 274.26 MB peak
+[2017.06.01-11.49.08:208][  0]LogMemory: Process Virtual Memory: 260.86 MB used, 260.86 MB peak
+[2017.06.01-11.49.08:208][  0]LogMemory: Physical Memory: 11704.36 MB used,  20931.06 MB free, 32635.41 MB total
+[2017.06.01-11.49.08:208][  0]LogMemory: Virtual Memory: 646.60 MB used,  20931.06 MB free, 134217728.00 MB total
+[2017.06.01-11.49.08:546][  0]LogInit: Using OS detected language (en-US).
+[2017.06.01-11.49.08:546][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.01-11.49.08:556][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.01-11.49.09:612][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.01-11.49.10:806][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2017.06.01-11.49.10:806][  0]LogD3D11RHI:       8153/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.01-11.49.10:815][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.06.01-11.49.10:815][  0]LogD3D11RHI:       128/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.01-11.49.10:817][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.01-11.49.10:817][  0]LogD3D11RHI:       0/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.01-11.49.10:817][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.01-11.49.10:823][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.01-11.49.10:823][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.01-11.49.10:823][  0]LogWindows: EnumDisplayDevices:
+[2017.06.01-11.49.10:823][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.06.01-11.49.10:824][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.01-11.49.10:824][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.01-11.49.10:824][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2017.06.01-11.49.10:824][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.06.01-11.49.10:824][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2017.06.01-11.49.10:825][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.01-11.49.10:825][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.01-11.49.10:825][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.01-11.49.11:367][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.01-11.49.11:494][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.01-11.49.11:495][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Intermediate/Shaders/WorkingDirectory/19704/).
+[2017.06.01-11.49.11:495][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bilal/AppData/Local/Temp/UnrealShaderWorkingDir/4AAEF6794D8BDE42DF05D2A826D6F9C3/'.
+[2017.06.01-11.49.11:495][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.01-11.49.12:523][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.01-11.49.12:581][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.01-11.49.12:638][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.01-11.49.12:698][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.01-11.49.12:760][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.01-11.49.12:820][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.01-11.49.12:882][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.01-11.49.12:942][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.01-11.49.12:996][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.01-11.49.13:056][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.01-11.49.13:114][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.01-11.49.13:171][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.01-11.49.13:230][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.01-11.49.13:285][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.01-11.49.13:341][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.01-11.49.13:460][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.01-11.49.13:460][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.01-11.49.13:506][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.01-11.49.13:605][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.01-11.49.13:635][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.01-11.49.13:689][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.01-11.49.13:745][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.01-11.49.13:799][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.01-11.49.13:856][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.01-11.49.13:856][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.01-11.49.14:355][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.01-11.49.14:452][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/bilal/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.01-11.49.14:453][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bilal/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.01-11.49.14:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.01-11.49.14:453][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.01-11.49.14:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.01-11.49.14:453][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.01-11.49.14:469][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.01-11.49.14:483][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bilal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.01-11.49.14:492][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.01-11.49.14:493][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.01-11.49.14:494][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.01-11.49.14:494][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.01-11.49.14:857][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.01-11.49.14:940][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.01-11.49.15:111][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.01-11.49.15:164][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.01-11.49.15:221][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.01-11.49.15:221][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.01-11.49.15:221][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.01-11.49.15:982][  0]LogNetVersion: TheWalkingDeadPro , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 493952694)
+[2017.06.01-11.49.16:072][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2017.06.01-11.49.16:205][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.101364 seconds
+[2017.06.01-11.49.16:211][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.01-11.49.16:211][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.01-11.49.16:211][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.01-11.49.16:286][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.01-11.49.19:884][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.01-11.49.19:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.01-11.49.20:824][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.01-11.49.21:519][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.49.21:568][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.49.21:650][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.49.21:735][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.49.22:873][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.01-11.49.23:774][  0]LogEngine: Initializing Engine...
+[2017.06.01-11.49.23:774][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.01-11.49.24:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.01-11.49.24:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.01-11.49.24:197][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.01-11.49.24:210][  0]LogInit: XAudio2 using 'Lautsprecher (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.49.24:230][  0]LogInit: FAudioDevice initialized.
+[2017.06.01-11.49.24:278][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/bilal/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.01-11.49.24:289][  0]LogInit: Texture streaming: Enabled
+[2017.06.01-11.49.24:390][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.01-11.49.24:642][  0]LogInit: Transaction tracking system initialized
+[2017.06.01-11.49.25:001][  0]BlueprintLog: New page: Editor Load
+[2017.06.01-11.49.26:193][  0]LocalizationService: Info Localization service is disabled
+[2017.06.01-11.49.27:037][  0]LogConsoleResponse:Display: 
+[2017.06.01-11.49.27:271][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.01-11.49.27:271][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.01-11.49.28:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' took 0.02s
+[2017.06.01-11.49.28:658][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.49.28:658][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.01-11.49.28:658][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.01-11.49.28:737][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.416ms to complete.
+[2017.06.01-11.49.28:737][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.079
+[2017.06.01-11.49.28:872][  0]LogCollectionManager: Loaded 0 collections in 0.001108 seconds
+[2017.06.01-11.49.28:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Collections/' took 0.01s
+[2017.06.01-11.49.28:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Developers/bilal/Collections/' took 0.01s
+[2017.06.01-11.49.28:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Collections/' took 0.01s
+[2017.06.01-11.49.28:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.01-11.49.28:968][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2017.06.01-11.49.29:036][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.01-11.49.29:096][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.01-11.49.29:145][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.01-11.49.29:213][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.01-11.49.29:221][  0]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.01-11.49.29:223][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.01-11.49.29:234][  0]LogSlate: Took 0.001026 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.01-11.49.29:370][  0]LogRenderer: Reallocating scene render targets to support 972x504 NumSamples 1 (Frame:1).
+[2017.06.01-11.49.29:486][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.01-11.49.29:564][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.01-11.49.29:564][  0]LogLoad: (Engine Initialization) Total time: 23.25 seconds
+[2017.06.01-11.49.29:564][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.06.01-11.49.29:564][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.01-11.49.29:564][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.01-11.49.29:904][  0]LogOcInput: OculusInput pre-init called
+[2017.06.01-11.49.29:904][  0]LogHMD: Starting GearVRController plugin
+[2017.06.01-11.49.29:922][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.01-11.49.29:959][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-11.49.30:242][  1]LogAssetRegistry: Asset discovery search completed in 14.1926 seconds
+[2017.06.01-11.49.30:245][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.01-11.49.30:245][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.06.01-11.51.00:642][798]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-11.51.00:665][798]LogAIModule: Creating AISystem for world MainLevel
+[2017.06.01-11.51.06:099][996]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.01-11.51.07:488][ 74]Cmd: MAP LOAD FILE="../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.01-11.51.07:488][ 74]LightingResults: New page: Lighting Build
+[2017.06.01-11.51.07:539][ 74]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2017.06.01-11.51.07:540][ 74]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.06.01-11.51.07:541][ 74]MapCheck: New page: Map Check
+[2017.06.01-11.51.07:541][ 74]LightingResults: New page: Lighting Build
+[2017.06.01-11.51.07:614][ 74]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.01-11.51.07:644][ 74]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.01-11.51.07:742][ 74]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.895ms to complete.
+[2017.06.01-11.51.07:743][ 74]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.255
+[2017.06.01-11.51.25:316][ 52]LogMetaData: Removing '/Game/Maps/MainLevel.MainLevel_C' ref from Metadata '/Game/Maps/FirstPersonExampleMap.PackageMetaData'
+[2017.06.01-11.51.25:316][ 52]LogMetaData: Removing '/Game/Maps/MainLevel.SKEL_MainLevel_C' ref from Metadata '/Game/Maps/FirstPersonExampleMap.PackageMetaData'
+[2017.06.01-11.51.26:431][ 52]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.01-11.51.26:492][ 52]LogSavePackage: Save=1029.85ms
+[2017.06.01-11.51.26:492][ 52]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevelB6E750B647509CBDD9EC80BA7F055632.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/MainLevel.umap'
+[2017.06.01-11.51.26:499][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/MainLevel.umap
+[2017.06.01-11.51.26:517][ 52]LogFileHelpers: Saving map 'MainLevel' took 1.180
+[2017.06.01-11.51.35:565][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:566][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:566][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:566][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:566][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:566][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:566][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.35:579][577]LogEditorActor: Deleted 7 Actors (0.014 secs)
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:028][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:029][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:029][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:029][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:029][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:029][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:029][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.01-11.51.43:043][ 12]LogEditorActor: Deleted 14 Actors (0.016 secs)
+[2017.06.01-11.54.24:038][ 53]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.06.01-11.54.44:168][227]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-11.55.52:605][ 62]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.01-11.55.53:060][ 62]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2017.06.01-11.55.53:375][ 62]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.01-11.55.54:830][ 62]LogAIModule: Creating AISystem for world StarterMap
+[2017.06.01-11.57.03:292][849]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2017.06.01-11.57.03:364][849]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2017.06.01-11.57.03:534][849]LogStaticMesh: Building static mesh SM_OceanWater...
+[2017.06.01-11.57.03:559][849]LogStaticMesh: Built static mesh [0.04s] /Game/WaterPlane/Meshes/SM_OceanWater.SM_OceanWater
+[2017.06.01-11.57.03:951][849]LogTexture:Display: Building textures: T_Seafoam_01 (AutoDXT, 2048X2048)
+[2017.06.01-11.57.06:526][849]LogTexture:Display: Building textures: T_LargeWaves_N (BC5, 1024X1024)
+[2017.06.01-11.57.06:637][849]LogTexture:Display: Building textures: T_SmallWaves_N (BC5, 512X512)
+[2017.06.01-11.57.06:712][849]LogTexture:Display: Building textures: T_LargeWaves_H (G8, 1024X1024)
+[2017.06.01-11.57.06:804][849]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2017.06.01-11.57.06:927][849]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2017.06.01-11.57.07:037][849]LogTexture:Display: Building textures: T_MediumWaves_N (BC5, 1024X1024)
+[2017.06.01-11.57.07:183][849]LogTexture:Display: Building textures: T_MediumWaves_H (G8, 1024X1024)
+[2017.06.01-11.57.07:264][849]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2017.06.01-11.57.07:330][849]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:351][849]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:363][849]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:374][849]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:384][849]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:395][849]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:407][849]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 64X64)
+[2017.06.01-11.57.07:409][849]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.06.01-11.57.07:429][849]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:451][849]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:471][849]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:494][849]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:513][849]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:535][849]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.06.01-11.57.07:555][849]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:577][849]LogTexture:Display: Building textures: LightMapTexture2D_33 (AutoDXT, 256X256)
+[2017.06.01-11.57.07:597][849]LogTexture:Display: Building textures: LightMapTexture2D_34 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:610][849]LogTexture:Display: Building textures: LightMapTexture2D_35 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:623][849]LogTexture:Display: Building textures: LightMapTexture2D_36 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:635][849]LogTexture:Display: Building textures: LightMapTexture2D_37 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:647][849]LogTexture:Display: Building textures: LightMapTexture2D_38 (AutoDXT, 64X64)
+[2017.06.01-11.57.07:648][849]LogTexture:Display: Building textures: LightMapTexture2D_39 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:673][849]LogTexture:Display: Building textures: LightMapTexture2D_44 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:696][849]LogTexture:Display: Building textures: LightMapTexture2D_55 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:717][849]LogTexture:Display: Building textures: LightMapTexture2D_58 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:742][849]LogTexture:Display: Building textures: LightMapTexture2D_59 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:764][849]LogTexture:Display: Building textures: LightMapTexture2D_60 (AutoDXT, 256X256)
+[2017.06.01-11.57.07:787][849]LogTexture:Display: Building textures: LightMapTexture2D_61 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:809][849]LogTexture:Display: Building textures: LightMapTexture2D_62 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:831][849]LogTexture:Display: Building textures: LightMapTexture2D_63 (AutoDXT, 128X128)
+[2017.06.01-11.57.07:843][849]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2017.06.01-11.57.07:857][849]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2017.06.01-11.57.07:865][849]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2017.06.01-11.57.07:874][849]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2017.06.01-11.57.07:880][849]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2017.06.01-11.57.07:887][849]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2017.06.01-11.57.07:895][849]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 64X64)
+[2017.06.01-11.57.07:897][849]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.06.01-11.57.07:911][849]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.06.01-11.57.07:926][849]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2017.06.01-11.57.07:937][849]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2017.06.01-11.57.07:953][849]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2017.06.01-11.57.07:965][849]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2017.06.01-11.57.07:980][849]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.06.01-11.57.07:995][849]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2017.06.01-11.57.08:012][849]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 128X64)
+[2017.06.01-11.57.08:013][849]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X128)
+[2017.06.01-11.57.08:015][849]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 128X64)
+[2017.06.01-11.57.08:015][849]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 128X64)
+[2017.06.01-11.57.08:016][849]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 128X64)
+[2017.06.01-11.57.08:017][849]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 128X64)
+[2017.06.01-11.57.08:017][849]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 64X32)
+[2017.06.01-11.57.08:018][849]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 256X128)
+[2017.06.01-11.57.08:020][849]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 128X64)
+[2017.06.01-11.57.08:021][849]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 128X64)
+[2017.06.01-11.57.08:021][849]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 128X64)
+[2017.06.01-11.57.08:022][849]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 128X64)
+[2017.06.01-11.57.08:023][849]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 128X64)
+[2017.06.01-11.57.08:023][849]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 128X64)
+[2017.06.01-11.57.08:024][849]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 64X32)
+[2017.06.01-11.57.08:024][849]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 128X64)
+[2017.06.01-11.57.08:025][849]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 128X64)
+[2017.06.01-11.57.08:026][849]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 128X64)
+[2017.06.01-11.57.08:027][849]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 128X64)
+[2017.06.01-11.57.08:027][849]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 128X64)
+[2017.06.01-11.57.08:028][849]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 256X128)
+[2017.06.01-11.57.08:030][849]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 128X64)
+[2017.06.01-11.57.08:031][849]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 128X64)
+[2017.06.01-11.57.08:032][849]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 128X64)
+[2017.06.01-11.57.08:032][849]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 128X64)
+[2017.06.01-11.57.08:033][849]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 128X64)
+[2017.06.01-11.57.08:034][849]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 128X64)
+[2017.06.01-11.57.08:035][849]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 256X128)
+[2017.06.01-11.57.08:037][849]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 128X64)
+[2017.06.01-11.57.08:037][849]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 128X64)
+[2017.06.01-11.57.08:039][849]LogAIModule: Creating AISystem for world LakeWater_Example
+[2017.06.01-11.57.08:039][849]LogActorComponent: RegisterComponentWithWorld: (/Game/WaterPlane/Maps/LakeWater_Example.LakeWater_Example:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.01-11.57.08:139][849]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:160][849]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:173][849]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:184][849]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:195][849]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:206][849]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:218][849]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 64X64)
+[2017.06.01-11.57.08:220][849]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.06.01-11.57.08:245][849]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:267][849]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:287][849]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:311][849]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:330][849]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:353][849]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.06.01-11.57.08:374][849]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:398][849]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2017.06.01-11.57.08:413][849]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2017.06.01-11.57.08:421][849]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2017.06.01-11.57.08:430][849]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2017.06.01-11.57.08:435][849]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2017.06.01-11.57.08:443][849]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2017.06.01-11.57.08:450][849]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 64X64)
+[2017.06.01-11.57.08:452][849]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.06.01-11.57.08:466][849]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.06.01-11.57.08:486][849]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2017.06.01-11.57.08:500][849]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2017.06.01-11.57.08:518][849]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2017.06.01-11.57.08:531][849]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2017.06.01-11.57.08:551][849]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.06.01-11.57.08:572][849]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2017.06.01-11.57.08:589][849]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 128X64)
+[2017.06.01-11.57.08:590][849]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 256X128)
+[2017.06.01-11.57.08:592][849]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 128X64)
+[2017.06.01-11.57.08:593][849]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 128X64)
+[2017.06.01-11.57.08:593][849]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 128X64)
+[2017.06.01-11.57.08:594][849]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 128X64)
+[2017.06.01-11.57.08:595][849]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 128X64)
+[2017.06.01-11.57.08:596][849]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 256X128)
+[2017.06.01-11.57.08:597][849]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 128X64)
+[2017.06.01-11.57.08:598][849]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 128X64)
+[2017.06.01-11.57.08:599][849]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 128X64)
+[2017.06.01-11.57.08:600][849]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 128X64)
+[2017.06.01-11.57.08:600][849]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 128X64)
+[2017.06.01-11.57.08:601][849]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 128X64)
+[2017.06.01-11.57.08:602][849]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 64X32)
+[2017.06.01-11.57.08:603][849]LogAIModule: Creating AISystem for world OceanWater_Example
+[2017.06.01-11.57.08:603][849]LogActorComponent: RegisterComponentWithWorld: (/Game/WaterPlane/Maps/OceanWater_Example.OceanWater_Example:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.01-11.57.08:760][849]LogMaterial: Missing cached shader map for material M_TranslucentWater, compiling. 
+[2017.06.01-11.57.08:828][849]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2017.06.01-11.57.08:878][849]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2017.06.01-11.57.08:892][849]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:904][849]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2017.06.01-11.57.08:924][849]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:938][849]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:950][849]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:965][849]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2017.06.01-11.57.08:986][849]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2017.06.01-11.57.09:006][849]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2017.06.01-11.57.09:017][849]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.06.01-11.57.09:047][849]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2017.06.01-11.57.09:069][849]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.06.01-11.57.09:092][849]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2017.06.01-11.57.09:110][849]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2017.06.01-11.57.09:130][849]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2017.06.01-11.57.09:148][849]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.06.01-11.57.09:170][849]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2017.06.01-11.57.09:188][849]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2017.06.01-11.57.09:196][849]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2017.06.01-11.57.09:211][849]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2017.06.01-11.57.09:221][849]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2017.06.01-11.57.09:234][849]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2017.06.01-11.57.09:243][849]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2017.06.01-11.57.09:258][849]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2017.06.01-11.57.09:273][849]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2017.06.01-11.57.09:281][849]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.06.01-11.57.09:299][849]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2017.06.01-11.57.09:319][849]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.06.01-11.57.09:334][849]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2017.06.01-11.57.09:348][849]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2017.06.01-11.57.09:361][849]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2017.06.01-11.57.09:373][849]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.06.01-11.57.09:391][849]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2017.06.01-11.57.09:408][849]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 256X128)
+[2017.06.01-11.57.09:411][849]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8, 256X128)
+[2017.06.01-11.57.09:413][849]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8, 256X128)
+[2017.06.01-11.57.09:415][849]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8, 256X128)
+[2017.06.01-11.57.09:417][849]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8, 256X128)
+[2017.06.01-11.57.09:419][849]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8, 128X64)
+[2017.06.01-11.57.09:419][849]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8, 128X64)
+[2017.06.01-11.57.09:420][849]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8, 256X128)
+[2017.06.01-11.57.09:422][849]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8, 256X128)
+[2017.06.01-11.57.09:424][849]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8, 128X64)
+[2017.06.01-11.57.09:425][849]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8, 128X64)
+[2017.06.01-11.57.09:426][849]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8, 128X64)
+[2017.06.01-11.57.09:426][849]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8, 128X64)
+[2017.06.01-11.57.09:427][849]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8, 128X64)
+[2017.06.01-11.57.09:428][849]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8, 128X64)
+[2017.06.01-11.57.09:428][849]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8, 128X64)
+[2017.06.01-11.57.09:430][849]LogAIModule: Creating AISystem for world TranslucentWater_Example
+[2017.06.01-11.57.09:430][849]LogActorComponent: RegisterComponentWithWorld: (/Game/WaterPlane/Maps/TranslucentWater_Example.TranslucentWater_Example:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.01-11.57.09:443][849]LogMaterial: Missing cached shader map for material FakedCaustics, compiling. 
+[2017.06.01-11.57.09:502][849]LogTexture:Display: Building textures: T_MicroWaves_N (BC5, 512X512)
+[2017.06.01-11.57.09:622][849]LogTexture:Display: Building textures: T_OceanFoam_01 (AutoDXT, 1024X1024)
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:UserConstructionScript' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:WaterSurface' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Ocean Material' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Water Scale X' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Water Scale Y' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Wave Speed' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Water Material' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Overall Water Scale' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Variation Amount' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Primary Water Color' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:497][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.BP_LakeWater_C:Secondary Water Color' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Secondary Water Color' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Primary Water Color' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Variation Amount' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Overall Water Scale' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Water Material' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Wave Speed' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Water Scale Y' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Water Scale X' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:Ocean Material' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:WaterSurface' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C:UserConstructionScript' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:498][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.SKEL_BP_LakeWater_C' ref from Metadata '/Game/WaterPlane/Lake/Blueprint/BP_LakeWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater:UserConstructionScript.K2Node_FunctionEntry_9' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:UserConstructionScript' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:WaterSurface' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Ocean Material' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Water Scale X' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Water Scale Y' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Water Material' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Overall Water Scale' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Displacement' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Tesselation Factor' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Overall Water Speed' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Amplify Large Normals' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.BP_OceanWater_C:Amplify Small Normals' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Amplify Small Normals' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Amplify Large Normals' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Overall Water Speed' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Tesselation Factor' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Displacement' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Overall Water Scale' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Water Material' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Water Scale Y' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Water Scale X' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:Ocean Material' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:WaterSurface' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C:UserConstructionScript' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:611][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.SKEL_BP_OceanWater_C' ref from Metadata '/Game/WaterPlane/Ocean/Blueprint/BP_OceanWater.PackageMetaData'
+[2017.06.01-11.57.11:765][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:765][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:UserConstructionScript' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:765][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:WaterSurface' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:765][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Ocean Material' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:765][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Water Scale X' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:765][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Water Scale Y' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Wave Speed' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Water Material' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Overall Water Scale' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Variation Amount' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Primary Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Secondary Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Base Opacity' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Shore Depth' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Depth Scale' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Deep Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.BP_TranslucentWater_C:Shallow Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Shallow Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Deep Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Depth Scale' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Shore Depth' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Base Opacity' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Secondary Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Primary Water Color' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Variation Amount' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Overall Water Scale' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Water Material' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Wave Speed' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Water Scale Y' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Water Scale X' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:Ocean Material' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:WaterSurface' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C:UserConstructionScript' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.11:766][849]LogMetaData: Removing '/Game/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.SKEL_BP_TranslucentWater_C' ref from Metadata '/Game/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.PackageMetaData'
+[2017.06.01-11.57.14:391][849]LogSavePackage: Save=2516.60ms
+[2017.06.01-11.57.14:391][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/HDRI_Epic_Courtyard_Daylight9E2E8FA04E6AF26B6981E0B53BD9822E.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight.uasset'
+[2017.06.01-11.57.14:399][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2017.06.01-11.57.14:511][849]LogSavePackage: Save=49.39ms
+[2017.06.01-11.57.14:511][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_Rock_BasaltC60249F14D6E1D2AE2A03C89D16318BA.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Materials/M_Rock_Basalt.uasset'
+[2017.06.01-11.57.14:518][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Materials/M_Rock_Basalt.uasset
+[2017.06.01-11.57.14:535][849]LogSavePackage: Save=3.93ms
+[2017.06.01-11.57.14:535][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_Rock_Basalt33C19A96494048B7C1011D9D5E5FA781.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Materials/M_Rock_Basalt.uasset'
+[2017.06.01-11.57.14:543][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Materials/M_Rock_Basalt.uasset
+[2017.06.01-11.57.14:623][849]LogSavePackage: Save=30.75ms
+[2017.06.01-11.57.14:623][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/SM_RockFBAA8B5D46DA9487EB5D56BCB4846A23.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Props/SM_Rock.uasset'
+[2017.06.01-11.57.14:634][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Props/SM_Rock.uasset
+[2017.06.01-11.57.14:663][849]LogSavePackage: Save=4.30ms
+[2017.06.01-11.57.14:663][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/SM_Rock63427DE5477E5586C29A53817FF24330.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Props/SM_Rock.uasset'
+[2017.06.01-11.57.14:670][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Props/SM_Rock.uasset
+[2017.06.01-11.57.14:746][849]LogSavePackage: Save=26.15ms
+[2017.06.01-11.57.14:746][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_RockAD97578044C1F32522D39FB1A0C0817D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Props/Materials/M_Rock.uasset'
+[2017.06.01-11.57.14:752][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Props/Materials/M_Rock.uasset
+[2017.06.01-11.57.14:846][849]LogSavePackage: Save=64.01ms
+[2017.06.01-11.57.14:846][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Detail_Rocky_NE43BCF9D4ADE6129AF7BB3ABEA0FE613.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Detail_Rocky_N.uasset'
+[2017.06.01-11.57.14:853][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Detail_Rocky_N.uasset
+[2017.06.01-11.57.14:878][849]LogSavePackage: Save=5.84ms
+[2017.06.01-11.57.14:878][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Detail_Rocky_N7DAE27604B8432480E9C2EADCA5B6A03.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Detail_Rocky_N.uasset'
+[2017.06.01-11.57.14:886][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Detail_Rocky_N.uasset
+[2017.06.01-11.57.15:124][849]LogSavePackage: Save=209.27ms
+[2017.06.01-11.57.15:124][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_MacroVariation607F8D6846161DEFEF4EDB80BC507794.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_MacroVariation.uasset'
+[2017.06.01-11.57.15:131][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_MacroVariation.uasset
+[2017.06.01-11.57.15:160][849]LogSavePackage: Save=3.65ms
+[2017.06.01-11.57.15:160][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_MacroVariation4CF3E11D4C391548406DFFBFD3211547.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_MacroVariation.uasset'
+[2017.06.01-11.57.15:168][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_MacroVariation.uasset
+[2017.06.01-11.57.15:352][849]LogSavePackage: Save=162.49ms
+[2017.06.01-11.57.15:352][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Perlin_Noise_MD203352D4F9F8B94322D728E7798B1CE.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Perlin_Noise_M.uasset'
+[2017.06.01-11.57.15:359][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Perlin_Noise_M.uasset
+[2017.06.01-11.57.15:387][849]LogSavePackage: Save=3.78ms
+[2017.06.01-11.57.15:388][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Perlin_Noise_M1B82C9DC4B785411B17A25BCB01578DF.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Perlin_Noise_M.uasset'
+[2017.06.01-11.57.15:395][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Perlin_Noise_M.uasset
+[2017.06.01-11.57.15:476][849]LogSavePackage: Save=59.42ms
+[2017.06.01-11.57.15:476][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_RockMesh_M49A5EE834D7A269BF8EC49BB05566AA8.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_RockMesh_M.uasset'
+[2017.06.01-11.57.15:483][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_RockMesh_M.uasset
+[2017.06.01-11.57.15:505][849]LogSavePackage: Save=3.43ms
+[2017.06.01-11.57.15:505][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_RockMesh_MA020B8A74A57C08777108C96B3110971.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_RockMesh_M.uasset'
+[2017.06.01-11.57.15:512][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_RockMesh_M.uasset
+[2017.06.01-11.57.15:638][849]LogSavePackage: Save=103.12ms
+[2017.06.01-11.57.15:638][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_RockMesh_N825C7BF84C4A74C47A5A359FA0EC027D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_RockMesh_N.uasset'
+[2017.06.01-11.57.15:645][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_RockMesh_N.uasset
+[2017.06.01-11.57.15:668][849]LogSavePackage: Save=3.42ms
+[2017.06.01-11.57.15:668][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_RockMesh_N0C99B60A4A495DAA9EBED79E50522324.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_RockMesh_N.uasset'
+[2017.06.01-11.57.15:677][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_RockMesh_N.uasset
+[2017.06.01-11.57.15:909][849]LogSavePackage: Save=209.29ms
+[2017.06.01-11.57.15:909][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Rock_Basalt_DC57894A747817E9F6180D0AC734F6F48.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Rock_Basalt_D.uasset'
+[2017.06.01-11.57.15:917][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Rock_Basalt_D.uasset
+[2017.06.01-11.57.15:959][849]LogSavePackage: Save=4.28ms
+[2017.06.01-11.57.15:959][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Rock_Basalt_D8A9AFB66409E6B88FCF5CB830752F90E.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Rock_Basalt_D.uasset'
+[2017.06.01-11.57.15:967][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Rock_Basalt_D.uasset
+[2017.06.01-11.57.16:139][849]LogSavePackage: Save=147.89ms
+[2017.06.01-11.57.16:139][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Rock_Basalt_NDE6D83E94572A15DAEA52FAEFC240707.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Rock_Basalt_N.uasset'
+[2017.06.01-11.57.16:146][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Environment/Textures/T_Rock_Basalt_N.uasset
+[2017.06.01-11.57.16:174][849]LogSavePackage: Save=4.05ms
+[2017.06.01-11.57.16:174][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Rock_Basalt_NFEFAE20A4835EC6D219883850EC4B7FE.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Rock_Basalt_N.uasset'
+[2017.06.01-11.57.16:182][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Environment/Textures/T_Rock_Basalt_N.uasset
+[2017.06.01-11.57.16:346][849]LogSavePackage: Save=99.39ms
+[2017.06.01-11.57.16:346][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/BP_LakeWaterF3FF85D04C4A448F8E54708862E18839.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.uasset'
+[2017.06.01-11.57.16:355][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Blueprint/BP_LakeWater.uasset
+[2017.06.01-11.57.16:391][849]LogSavePackage: Save=6.11ms
+[2017.06.01-11.57.16:391][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/BP_LakeWater26B319BA4671BD09C20D868B49D76D56.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Lake/Blueprint/BP_LakeWater.uasset'
+[2017.06.01-11.57.16:400][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Lake/Blueprint/BP_LakeWater.uasset
+[2017.06.01-11.57.23:857][849]LogSavePackage: Save=38.65ms
+[2017.06.01-11.57.23:857][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_LakeWater_012A41FDE34648BD94CBF0E3BD19F0088D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Materials/M_LakeWater_01.uasset'
+[2017.06.01-11.57.23:865][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Materials/M_LakeWater_01.uasset
+[2017.06.01-11.57.23:925][849]LogSavePackage: Save=17.23ms
+[2017.06.01-11.57.23:925][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_LakeWater_01_InstD4FC359A47C584BB31D1EE8CE5F4644E.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Materials/M_LakeWater_01_Inst.uasset'
+[2017.06.01-11.57.23:932][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Materials/M_LakeWater_01_Inst.uasset
+[2017.06.01-11.57.23:953][849]LogSavePackage: Save=4.40ms
+[2017.06.01-11.57.23:953][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_LakeWater_01_Inst748A24EE4AC9EE19834F6196B8535D86.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Lake/Materials/M_LakeWater_01_Inst.uasset'
+[2017.06.01-11.57.23:960][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Lake/Materials/M_LakeWater_01_Inst.uasset
+[2017.06.01-11.57.24:012][849]LogSavePackage: Save=28.58ms
+[2017.06.01-11.57.24:012][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_MediumWaves_H65485EC24EC1149CFF8F29A5D584892F.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Textures/T_MediumWaves_H.uasset'
+[2017.06.01-11.57.24:019][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Textures/T_MediumWaves_H.uasset
+[2017.06.01-11.57.24:072][849]LogSavePackage: Save=30.80ms
+[2017.06.01-11.57.24:072][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_MediumWaves_NDE2254A44E04821307EADFB0D739C621.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Textures/T_MediumWaves_N.uasset'
+[2017.06.01-11.57.24:082][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Textures/T_MediumWaves_N.uasset
+[2017.06.01-11.57.24:134][849]LogSavePackage: Save=27.60ms
+[2017.06.01-11.57.24:134][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_SmallWaves_NB12BE2B843B8805CFBA1BFB2634920DC.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Textures/T_SmallWaves_N.uasset'
+[2017.06.01-11.57.24:141][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Lake/Textures/T_SmallWaves_N.uasset
+[2017.06.01-11.57.24:212][849]LogSavePackage: Save=13.40ms
+[2017.06.01-11.57.24:212][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/SM_OceanWaterB471ED1C43FD296960254DB7B6E1BE71.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Meshes/SM_OceanWater.uasset'
+[2017.06.01-11.57.24:219][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Meshes/SM_OceanWater.uasset
+[2017.06.01-11.57.24:240][849]LogSavePackage: Save=4.24ms
+[2017.06.01-11.57.24:240][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/SM_OceanWater424D14C04FAEF89A047119BCBF8BF833.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Meshes/SM_OceanWater.uasset'
+[2017.06.01-11.57.24:247][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Meshes/SM_OceanWater.uasset
+[2017.06.01-11.57.24:373][849]LogSavePackage: Save=68.33ms
+[2017.06.01-11.57.24:373][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/BP_OceanWaterF720CBFA47C1DF95C4027BBCBD4D0350.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.uasset'
+[2017.06.01-11.57.24:380][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Blueprint/BP_OceanWater.uasset
+[2017.06.01-11.57.24:402][849]LogSavePackage: Save=4.54ms
+[2017.06.01-11.57.24:402][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/BP_OceanWater86CC3C4342024CCB721F29BD9879EFCD.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Ocean/Blueprint/BP_OceanWater.uasset'
+[2017.06.01-11.57.24:409][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Ocean/Blueprint/BP_OceanWater.uasset
+[2017.06.01-11.57.37:594][849]LogSavePackage: Save=13.97ms
+[2017.06.01-11.57.37:594][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/FakedCaustics8BFE26D3410829CDCE58F4A5CA0BF774.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/FakedCaustics.uasset'
+[2017.06.01-11.57.37:601][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/FakedCaustics.uasset
+[2017.06.01-11.57.37:712][849]LogSavePackage: Save=58.76ms
+[2017.06.01-11.57.37:712][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_OceanWater_154E0EB5C4FDD0D514D4989999FF81D8C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/M_OceanWater_1.uasset'
+[2017.06.01-11.57.37:717][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/M_OceanWater_1.uasset
+[2017.06.01-11.57.37:770][849]LogSavePackage: Save=13.95ms
+[2017.06.01-11.57.37:770][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_OceanWater_1_Inst2A72032949FE2842C52F24B14AF0A242.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst.uasset'
+[2017.06.01-11.57.37:775][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst.uasset
+[2017.06.01-11.57.37:790][849]LogSavePackage: Save=2.76ms
+[2017.06.01-11.57.37:790][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_OceanWater_1_Inst48B4BFFA497E15ACB028C885EE6D8036.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst.uasset'
+[2017.06.01-11.57.37:854][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst.uasset
+[2017.06.01-11.57.37:873][849]LogSavePackage: Save=3.34ms
+[2017.06.01-11.57.37:873][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/OceanWater_SS2F33592E443E562BED3CD3B87A970313.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/OceanWater_SS.uasset'
+[2017.06.01-11.57.37:878][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Materials/OceanWater_SS.uasset
+[2017.06.01-11.57.37:923][849]LogSavePackage: Save=26.49ms
+[2017.06.01-11.57.37:923][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_LargeWaves_HDEC206E945618083B68590A86021C414.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_LargeWaves_H.uasset'
+[2017.06.01-11.57.37:928][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_LargeWaves_H.uasset
+[2017.06.01-11.57.37:965][849]LogSavePackage: Save=20.44ms
+[2017.06.01-11.57.37:965][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_LargeWaves_NC4951D694540A136C627608604A06C59.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_LargeWaves_N.uasset'
+[2017.06.01-11.57.37:970][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_LargeWaves_N.uasset
+[2017.06.01-11.57.38:010][849]LogSavePackage: Save=23.64ms
+[2017.06.01-11.57.38:010][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_MicroWaves_N844A91EB4D0A0711BAA2E4821864B9AA.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_MicroWaves_N.uasset'
+[2017.06.01-11.57.38:017][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_MicroWaves_N.uasset
+[2017.06.01-11.57.38:101][849]LogSavePackage: Save=67.04ms
+[2017.06.01-11.57.38:101][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_OceanFoam_01BCD1E160418D6168014B8081507D6F72.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_OceanFoam_01.uasset'
+[2017.06.01-11.57.38:106][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_OceanFoam_01.uasset
+[2017.06.01-11.57.38:251][849]LogSavePackage: Save=123.04ms
+[2017.06.01-11.57.38:251][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/T_Seafoam_01458F4AFE4C95E9CB7C7D57910927016E.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_Seafoam_01.uasset'
+[2017.06.01-11.57.38:257][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Ocean/Textures/T_Seafoam_01.uasset
+[2017.06.01-11.57.38:405][849]LogSavePackage: Save=68.11ms
+[2017.06.01-11.57.38:405][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/BP_TranslucentWaterAD7D01A94EF63C839DC678B2EFF911B9.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.uasset'
+[2017.06.01-11.57.38:411][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.uasset
+[2017.06.01-11.57.38:426][849]LogSavePackage: Save=2.67ms
+[2017.06.01-11.57.38:426][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/BP_TranslucentWater4EE76289488F21B4CEB2898146ECFF60.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.uasset'
+[2017.06.01-11.57.38:431][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Translucent/Blueprint/BP_TranslucentWater.uasset
+[2017.06.01-11.57.38:512][849]LogSavePackage: Save=45.49ms
+[2017.06.01-11.57.38:512][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_TranslucentWater3509F8484763F7E31C098D8CBF6C69A4.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Translucent/Materials/M_TranslucentWater.uasset'
+[2017.06.01-11.57.38:516][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Translucent/Materials/M_TranslucentWater.uasset
+[2017.06.01-11.57.38:563][849]LogSavePackage: Save=13.19ms
+[2017.06.01-11.57.38:563][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_TranslucentWater_Inst97B4E3B34062E626E88D60BC512F9D43.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Translucent/Materials/M_TranslucentWater_Inst.uasset'
+[2017.06.01-11.57.38:567][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/WaterPlane/Translucent/Materials/M_TranslucentWater_Inst.uasset
+[2017.06.01-11.57.38:583][849]LogSavePackage: Save=2.27ms
+[2017.06.01-11.57.38:583][849]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/M_TranslucentWater_Inst1F5857DA418467B0C12972B6B55893A3.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Translucent/Materials/M_TranslucentWater_Inst.uasset'
+[2017.06.01-11.57.38:588][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Translucent/Materials/M_TranslucentWater_Inst.uasset
+[2017.06.01-11.59.04:722][352]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.01-11.59.05:584][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2017.06.01-11.59.05:584][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.59.05:585][352]PIE: New page: PIE session: MainLevel (Jun 1, 2017, 3:59:05 PM)
+[2017.06.01-11.59.05:585][352]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2017.06.01-11.59.05:607][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022421s)
+[2017.06.01-11.59.05:608][352]LogAIModule: Creating AISystem for world MainLevel
+[2017.06.01-11.59.05:608][352]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2017.06.01-11.59.05:609][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.023798s)
+[2017.06.01-11.59.05:641][352]LogInit: XAudio2 using 'Lautsprecher (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.59.05:650][352]LogInit: FAudioDevice initialized.
+[2017.06.01-11.59.05:697][352]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.01-11.59.05:703][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2017.06.01-13.59.05
+[2017.06.01-11.59.05:704][352]LogWorld: Bringing up level for play took: 0.002432
+[2017.06.01-11.59.05:756][352]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.01-11.59.05:757][352]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.919
+[2017.06.01-11.59.05:757][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2017.06.01-11.59.09:568][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2017.06.01-11.59.09:606][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2017.06.01-12.00.31:777][499]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128)
+[2017.06.01-12.00.33:161][591]LogTexture:Display: Building textures: Texture2D_4 (G8, 128X128)
+[2017.06.01-12.01.43:924][856]LogSavePackage: Save=1063.94ms
+[2017.06.01-12.01.43:924][856]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevel_Auto18B9551C14A1365CBCAFB59A2980B8A82.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap'
+[2017.06.01-12.01.43:927][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap
+[2017.06.01-12.01.43:931][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 1.106
+[2017.06.01-12.01.43:931][856]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.106
+[2017.06.01-12.01.43:937][856]LogExec:Warning: Missing filename
+[2017.06.01-12.01.43:937][856]LogFileHelpers: Auto-saving content packages took 0.003
+[2017.06.01-13.12.36:206][ 77]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.01-13.12.36:206][ 77]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.01-13.13.01:826][594]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.06.01-13.13.01:841][594]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.06.01-13.13.01:855][594]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2017.06.01-13.13.01:869][594]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2017.06.01-13.13.01:883][594]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.06.01-13.13.36:657][270]MapCheck: New page: Map Check
+[2017.06.01-13.13.36:675][270]LightingResults: New page: Lighting Build - Jun 1, 2017, 5:13:36 PM
+[2017.06.01-13.13.36:777][270]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.01-13.13.36:869][270]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.01-13.13.36:880][270]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.01-13.13.37:405][270]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.01-13.13.37:405][270]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19704
+[2017.06.01-13.13.41:511][270]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.01-13.13.41:511][270]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.01-13.13.41:511][270]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.01-13.13.41:511][270]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.01-13.13.41:511][270]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.01-13.13.41:898][270]LogEditorBuildUtils: Build time 0:05
+[2017.06.01-13.13.41:910][270]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.06.01-13.13.41:916][270]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.06.01-13.13.41:936][271]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2017.06.01-13.13.41:948][271]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2017.06.01-13.13.43:070][306]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.06.01-13.13.43:079][306]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.06.01-13.14.03:697][430]LogSavePackage: Save=1911.30ms
+[2017.06.01-13.14.03:697][430]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevel_Auto22633BED241E634B4A59C2BA30C074D3D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap'
+[2017.06.01-13.14.03:700][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap
+[2017.06.01-13.14.03:704][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 1.955
+[2017.06.01-13.14.03:704][430]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.955
+[2017.06.01-13.14.22:075][486]Job is a success!
+[2017.06.01-13.14.23:326][487]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:326][487]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1, 256X256)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:327][487]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_31 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_32 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_33 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_34 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_35 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_36 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_37 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_38 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_39 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_40 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_41 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_42 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_43 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_44 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_45 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_46 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_47 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_48 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_49 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_50 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_51 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_52 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1, 256X256)
+[2017.06.01-13.14.23:335][487]LogTexture:Display: Building textures: SkyOcclusion0_53 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_54 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_55 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_56 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_57 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_58 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_59 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_60 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_61 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_62 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_63 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_64 (AutoDXT, 256X128)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1, 256X256)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: SkyOcclusion0_65 (AutoDXT, 64X32)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 64X64)
+[2017.06.01-13.14.23:336][487]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1, 64X64)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (G8, 32X32)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (G8, 128X128)
+[2017.06.01-13.14.24:763][487]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (G8, 128X128)
+[2017.06.01-13.14.24:969][487]LogStaticLightingSystem: Illumination: 47.9 sec (714 ms encoding lightmaps, 1.42 sec encoding shadowmaps)
+[2017.06.01-13.14.24:969][487]LogStaticLightingSystem: Lightmap texture memory:  9.3 MB (9.3 MB streaming, 0.0 MB non-streaming), 130 textures
+[2017.06.01-13.14.24:969][487]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 65 textures
+[2017.06.01-13.14.25:540][487]Lightmass on ALIENWARE: 36.8 sec total, 1.36 sec importing, 1.44 sec setup, 2.75 sec photons, 31.1 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 3:37 min total, 2:43 min processing.
+[2017.06.01-13.14.25:540][487]DumpUnbuiltLightIteractions
+[2017.06.01-13.14.25:540][487]Lights with unbuilt interactions: 0
+[2017.06.01-13.14.25:540][487]
+[2017.06.01-13.14.25:540][487]Primitives with unbuilt interactions: 0
+[2017.06.01-13.14.25:553][488]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.01-13.14.25:553][488]MapCheck: New page: MainLevel - Jun 1, 2017, 5:14:25 PM
+[2017.06.01-13.14.25:890][488]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 337.173ms to complete.
+[2017.06.01-13.15.16:542][937]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.06.01-13.16.13:323][319]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.06.01-13.23.00:521][535]LogSlate: Took 0.002146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.01-13.23.42:125][  4]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.06.01-13.23.51:660][572]Cmd: TRANSACTION UNDO
+[2017.06.01-13.23.51:661][572]LogEditorTransaction: Undo Move Actors
+[2017.06.01-13.23.55:169][780]Cmd: TRANSACTION UNDO
+[2017.06.01-13.23.55:169][780]LogEditorTransaction: Undo Set actor scale
+[2017.06.01-13.24.00:046][ 69]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.06.01-13.24.11:344][741]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.11:345][741]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.11:346][741]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.11:346][741]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.13:288][850]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.17:221][ 84]Cmd: TRANSACTION UNDO
+[2017.06.01-13.24.17:221][ 84]LogEditorTransaction: Undo Reset Scale
+[2017.06.01-13.24.17:222][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.17:222][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.17:222][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.01-13.24.17:222][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/Maps/MainLevel.MainLevel:PersistentLevel.PostProcessVolume_2.BrushComponent0] ScaledElem[0] invalid
+[2017.06.01-13.24.17:404][ 94]Cmd: TRANSACTION UNDO
+[2017.06.01-13.24.17:404][ 94]LogEditorTransaction: Undo Set actor scale
+[2017.06.01-13.24.17:857][120]Cmd: TRANSACTION UNDO
+[2017.06.01-13.24.17:857][120]LogEditorTransaction: Undo Set actor scale
+[2017.06.01-13.24.18:280][145]Cmd: TRANSACTION UNDO
+[2017.06.01-13.24.18:280][145]LogEditorTransaction: Undo Set actor scale
+[2017.06.01-13.24.19:317][207]Cmd: TRANSACTION UNDO
+[2017.06.01-13.24.19:318][207]LogEditorTransaction: Undo Set actor scale
+[2017.06.01-13.24.56:370][677]LogSavePackage: Save=438.40ms
+[2017.06.01-13.24.56:370][677]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevel_Auto3C4AA06E24D9DD7EAD30E708EB8E06FE5.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap'
+[2017.06.01-13.24.56:373][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap
+[2017.06.01-13.24.56:378][677]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.626
+[2017.06.01-13.24.56:378][677]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.626
+[2017.06.01-13.24.56:381][677]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MainLevel_BuiltData] ([1] browsable assets)...
+[2017.06.01-13.24.56:381][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MainLevel_BuiltData]
+[2017.06.01-13.24.56:566][677]LogSavePackage: Save=180.99ms
+[2017.06.01-13.24.56:566][677]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevel_BuiltData_Auto3635961B9433CFD0C554A59901ABC6DBB.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_BuiltData_Auto3.uasset'
+[2017.06.01-13.24.56:570][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/MainLevel_BuiltData_Auto3.uasset
+[2017.06.01-13.24.56:570][677]LogFileHelpers: Auto-saving content packages took 0.190
+[2017.06.01-13.25.34:638][921]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.06.01-13.27.47:174][ 49]LogActorFactory: Actor Factory created SM_OceanPlane
+[2017.06.01-13.27.52:844][383]LogActorFactory: Actor Factory created SM_OceanPlane
+[2017.06.01-13.28.01:524][894]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_OceanPlane)
+[2017.06.01-13.28.01:883][915]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_OceanPlane)
+[2017.06.01-13.28.02:173][932]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_OceanPlane)
+[2017.06.01-13.28.02:492][951]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_OceanPlane)
+[2017.06.01-13.28.02:809][970]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_OceanPlane)
+[2017.06.01-13.28.07:121][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_OceanPlane)
+[2017.06.01-13.31.31:453][398]LogSavePackage: Save=324.41ms
+[2017.06.01-13.31.31:453][398]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevel3E0BBAE7455618072C7AB6A94390EF0C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/MainLevel.umap'
+[2017.06.01-13.31.31:463][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/MainLevel.umap
+[2017.06.01-13.31.31:495][398]LogFileHelpers: Saving map 'MainLevel' took 0.625
+[2017.06.01-13.31.32:379][398]LogSavePackage: Save=875.88ms
+[2017.06.01-13.31.32:379][398]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/MainLevel_BuiltDataE38E62FE4F278E8CBD842BA1E0A5E6F5.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/MainLevel_BuiltData.uasset'
+[2017.06.01-13.31.32:385][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/MainLevel_BuiltData.uasset
+[2017.06.01-13.31.32:749][398]LogSavePackage: Save=153.02ms
+[2017.06.01-13.31.32:749][398]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/LakeWater_Example110C61044DB00F4DCF0B68B68E31D7F3.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Maps/LakeWater_Example.umap'
+[2017.06.01-13.31.32:755][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Maps/LakeWater_Example.umap
+[2017.06.01-13.31.32:758][398]LogFileHelpers: Saving map 'LakeWater_Example' took 0.363
+[2017.06.01-13.31.33:110][398]LogSavePackage: Save=149.93ms
+[2017.06.01-13.31.33:110][398]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/OceanWater_ExampleC167381847F2B8C881D6B085B672140B.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Maps/OceanWater_Example.umap'
+[2017.06.01-13.31.33:116][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Maps/OceanWater_Example.umap
+[2017.06.01-13.31.33:119][398]LogFileHelpers: Saving map 'OceanWater_Example' took 0.359
+[2017.06.01-13.31.33:785][398]LogSavePackage: Save=414.99ms
+[2017.06.01-13.31.33:785][398]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/TranslucentWater_Example54336290425B1D11C2455C8C65AB4B14.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Maps/TranslucentWater_Example.umap'
+[2017.06.01-13.31.33:791][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/WaterPlane/Maps/TranslucentWater_Example.umap
+[2017.06.01-13.31.33:796][398]LogFileHelpers: Saving map 'TranslucentWater_Example' took 0.673
+[2017.06.01-13.31.33:847][398]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.01-13.31.34:103][399]Cmd: QUIT_EDITOR
+[2017.06.01-13.31.34:260][399]LogExit: Preparing to exit.
+[2017.06.01-13.31.35:279][399]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' was aborted.
+[2017.06.01-13.31.35:327][399]LogExit: Editor shut down
+[2017.06.01-13.31.35:331][399]LogExit: Transaction tracking system shut down
+[2017.06.01-13.31.35:469][399]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.01-13.31.35:469][399]LogExit: Object subsystem successfully closed.
+[2017.06.01-13.31.35:495][399]LogD3D11RHI: Shutdown
+[2017.06.01-13.31.35:495][399]LogD3D11RHI: CleanupD3DDevice
+[2017.06.01-13.31.35:684][399]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.06.01-13.31.35:703][399]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.06.01-13.31.35:703][399]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.06.01-13.31.35:703][399]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Collections/' was aborted.
+[2017.06.01-13.31.35:704][399]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Developers/bilal/Collections/' was aborted.
+[2017.06.01-13.31.35:704][399]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Collections/' was aborted.
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.01-13.31.35:704][399]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.01-13.31.36:029][399]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.01-13.31.36:030][399]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.01-13.31.36:084][399]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.01-13.31.36:085][399]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.01-13.31.36:086][399]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.01-13.31.36:086][399]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.01-13.31.36:086][399]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.01-13.31.36:236][399]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.01-13.31.36:237][399]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.01-13.31.36:238][399]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.01-13.31.36:238][399]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.01-13.31.36:238][399]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.01-13.31.36:238][399]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.01-13.31.36:238][399]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.01-13.31.36:238][399]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.01-13.31.36:339][399]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.01-13.31.36:439][399]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.01-13.31.36:439][399]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.01-13.31.36:439][399]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.01-13.31.36:439][399]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.01-13.31.36:439][399]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.01-13.31.36:439][399]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.01-13.31.36:441][399]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.01-13.31.36:441][399]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.01-13.31.36:442][399]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.01-13.31.36:443][399]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.01-13.31.36:443][399]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.01-13.31.36:443][399]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.01-13.31.36:443][399]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.01-13.31.36:443][399]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.01-13.31.36:443][399]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.01-13.31.36:447][399]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.01-13.31.36:447][399]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.01-13.31.36:447][399]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.01-13.31.36:447][399]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.01-13.31.36:447][399]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.01-13.31.36:447][399]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.01-13.31.36:583][399]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.01-13.31.36:583][399]LogDirectoryWatcher: A directory notification for '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' was aborted.
+[2017.06.01-13.31.36:583][399]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.01-13.31.36:583][399]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.01-13.31.36:587][399]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.01-13.31.36:677][399]LogDerivedDataCache: Shutdown
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.01-13.31.36:677][399]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.01-13.31.36:677][399]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.01-13.31.36:677][399]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.01-13.31.36:678][399]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3D8D781E-4F10-490C-5085-39B16EAE04C5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=d9fb212d4af7ccf64d9c048fdf55f2de%7Ce3cdaafc32b34c16bc7ae7d9e4d8081c%7C7f0baf09-b182-4738-84f4-d10d611646ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.01-13.31.36:709][399]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.01-13.31.36:710][399]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.01-13.31.36:711][399]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.01-13.31.36:714][399]LogExit: Exiting.
+[2017.06.01-13.31.36:722][399]Log file closed, 06/01/17 15:31:36
