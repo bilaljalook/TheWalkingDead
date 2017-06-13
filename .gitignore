@@ -74,3 +74,11 @@ Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 *.uasset
+TheWalkingDeadPro/Content/TropicalIsland/Maps/Demonstration.umap
+TheWalkingDeadPro/Content/KiteDemo/Maps/Showcase.umap
+TheWalkingDeadPro/Content/KiteDemo/Maps/Overview.umap
+TheWalkingDeadPro/Content/Survival_Items_Pack/Scenes/Demo_02.umap
+TheWalkingDeadPro/Content/Survival_Items_Pack/Scenes/Demo_03.umap
+TheWalkingDeadPro/Content/Survival_Items_Pack/Scenes/Demo.umap
+TheWalkingDeadPro/Content/Zombie_01/Overview.umap
+TheWalkingDeadPro/Content/Survival_Items_Pack/Scenes/Overview.umap

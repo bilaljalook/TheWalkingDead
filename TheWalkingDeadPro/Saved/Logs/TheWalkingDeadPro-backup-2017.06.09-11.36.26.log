@@ -1,0 +1,1427 @@
+﻿Log file open, 06/08/17 13:24:47
+LogInit:Display: Running engine for game: TheWalkingDeadPro
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1718121760) SRandInit(1718121760).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.259709
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.08-11.24.48:597][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.08-11.24.48:597][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.08-11.24.48:613][  0]LogInit: Computer: ALIENWARE
+[2017.06.08-11.24.48:613][  0]LogInit: User: bilal
+[2017.06.08-11.24.48:613][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.08-11.24.48:613][  0]LogInit: High frequency timer resolution =2.648442 MHz
+[2017.06.08-11.24.48:614][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.08-11.24.48:614][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.08-11.24.48:614][  0]LogMemory: Process Physical Memory: 273.97 MB used, 273.97 MB peak
+[2017.06.08-11.24.48:614][  0]LogMemory: Process Virtual Memory: 260.83 MB used, 260.83 MB peak
+[2017.06.08-11.24.48:614][  0]LogMemory: Physical Memory: 9751.85 MB used,  22883.56 MB free, 32635.41 MB total
+[2017.06.08-11.24.48:614][  0]LogMemory: Virtual Memory: 638.44 MB used,  22883.56 MB free, 134217728.00 MB total
+[2017.06.08-11.24.48:755][  0]LogInit: Using OS detected language (en-US).
+[2017.06.08-11.24.48:755][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.08-11.24.48:772][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.08-11.24.50:522][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.08-11.24.51:650][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2017.06.08-11.24.51:650][  0]LogD3D11RHI:       8153/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.08-11.24.51:664][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.06.08-11.24.51:664][  0]LogD3D11RHI:       128/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.08-11.24.51:670][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.08-11.24.51:670][  0]LogD3D11RHI:       0/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.08-11.24.51:670][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.08-11.24.51:679][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.08-11.24.51:680][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.08-11.24.51:680][  0]LogWindows: EnumDisplayDevices:
+[2017.06.08-11.24.51:680][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.06.08-11.24.51:680][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.08-11.24.51:680][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.08-11.24.51:680][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2017.06.08-11.24.51:681][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.06.08-11.24.51:681][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2017.06.08-11.24.51:681][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.08-11.24.51:681][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.08-11.24.51:681][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.08-11.24.52:806][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.08-11.24.52:866][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.08-11.24.52:868][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Intermediate/Shaders/WorkingDirectory/6036/).
+[2017.06.08-11.24.52:868][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bilal/AppData/Local/Temp/UnrealShaderWorkingDir/FC074DD448E088CD3406E4906CEDF1D9/'.
+[2017.06.08-11.24.52:869][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.08-11.24.54:715][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.08-11.24.54:816][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.08-11.24.54:931][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.08-11.24.55:041][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.08-11.24.55:142][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.08-11.24.55:243][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.08-11.24.55:348][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.08-11.24.55:461][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.08-11.24.55:554][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.08-11.24.55:660][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.08-11.24.55:758][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.08-11.24.55:864][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.08-11.24.55:975][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.08-11.24.56:077][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.08-11.24.56:183][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.08-11.24.56:405][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.08-11.24.56:405][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.08-11.24.56:486][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.08-11.24.56:647][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.08-11.24.56:700][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.08-11.24.56:800][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.08-11.24.56:899][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.08-11.24.56:994][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.08-11.24.57:097][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.08-11.24.57:097][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.08-11.24.58:077][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.08-11.24.58:249][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/bilal/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.08-11.24.58:249][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bilal/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.08-11.24.58:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.08-11.24.58:249][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.08-11.24.58:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.08-11.24.58:250][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.08-11.24.58:274][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.08-11.24.58:288][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bilal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.08-11.24.58:306][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.08-11.24.58:307][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.08-11.24.58:308][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.08-11.24.58:308][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.08-11.24.58:985][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.08-11.24.59:151][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.08-11.24.59:425][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.08-11.24.59:522][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.08-11.24.59:612][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.08-11.24.59:612][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.08-11.24.59:612][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.08-11.25.00:682][  0]LogNetVersion: TheWalkingDeadPro , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 493952694)
+[2017.06.08-11.25.00:777][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2017.06.08-11.25.00:946][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.117286 seconds
+[2017.06.08-11.25.00:960][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.08-11.25.00:960][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.08-11.25.00:960][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.08-11.25.01:095][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.08-11.25.06:350][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.08-11.25.06:414][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.08-11.25.07:598][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.08-11.25.08:610][  0]SourceControl: Info Source control is disabled
+[2017.06.08-11.25.08:739][  0]SourceControl: Info Source control is disabled
+[2017.06.08-11.25.08:864][  0]SourceControl: Info Source control is disabled
+[2017.06.08-11.25.09:021][  0]SourceControl: Info Source control is disabled
+[2017.06.08-11.25.11:007][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.08-11.25.12:645][  0]LogEngine: Initializing Engine...
+[2017.06.08-11.25.12:647][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.08-11.25.13:043][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.08-11.25.13:043][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.08-11.25.13:375][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-11.25.13:389][  0]LogInit: XAudio2 using 'Lautsprecher (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.08-11.25.13:417][  0]LogInit: FAudioDevice initialized.
+[2017.06.08-11.25.13:492][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/bilal/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.08-11.25.13:511][  0]LogInit: Texture streaming: Enabled
+[2017.06.08-11.25.13:677][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.08-11.25.14:155][  0]LogInit: Transaction tracking system initialized
+[2017.06.08-11.25.14:819][  0]BlueprintLog: New page: Editor Load
+[2017.06.08-11.25.16:883][  0]LocalizationService: Info Localization service is disabled
+[2017.06.08-11.25.18:248][  0]LogConsoleResponse:Display: 
+[2017.06.08-11.25.18:495][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.08-11.25.18:495][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.08-11.25.19:018][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' took 0.05s
+[2017.06.08-11.25.20:638][  0]SourceControl: Info Source control is disabled
+[2017.06.08-11.25.20:638][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/TheIslandLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.08-11.25.20:640][  0]LightingResults: New page: Lighting Build
+[2017.06.08-11.25.20:721][  0]MapCheck: New page: Map Check
+[2017.06.08-11.25.20:721][  0]LightingResults: New page: Lighting Build
+[2017.06.08-11.25.22:247][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.06.08-11.25.22:247][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.08-11.25.24:096][  0]LogAIModule: Creating AISystem for world TheIslandLevel
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[0] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[1] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[2] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[3] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[4] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[5] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[0] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[1] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[2] invalid
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:290][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[3] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[4] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[5] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[0] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[1] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[2] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[3] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[4] invalid
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.08-11.25.24:291][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/Assest/TropicalIsland/Meshes/SM_RockFormationD.SM_RockFormationD] ScaledElem[5] invalid
+[2017.06.08-11.25.24:429][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.08-11.25.24:448][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.08-11.25.24:745][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 296.79ms to complete.
+[2017.06.08-11.25.24:746][  0]LogFileHelpers: Loading map 'TheIslandLevel' took 4.108
+[2017.06.08-11.25.24:977][  0]LogCollectionManager: Loaded 0 collections in 0.003157 seconds
+[2017.06.08-11.25.25:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Collections/' took 0.01s
+[2017.06.08-11.25.25:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Developers/bilal/Collections/' took 0.01s
+[2017.06.08-11.25.25:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Collections/' took 0.01s
+[2017.06.08-11.25.25:129][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.08-11.25.25:143][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2329 classes and 491 folders.
+[2017.06.08-11.25.25:276][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.06.08-11.25.25:464][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.06.08-11.25.25:573][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.06.08-11.25.25:900][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.08-11.25.25:920][  0]LogSlate: Took 0.001359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.08-11.25.25:926][  0]LogSlate: Took 0.000589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.08-11.25.25:933][  0]LogSlate: Took 0.001979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.08-11.25.26:057][  0]LogRenderer: Reallocating scene render targets to support 1332x556 NumSamples 1 (Frame:1).
+[2017.06.08-11.25.26:261][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.08-11.25.26:338][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.08-11.25.26:338][  0]LogLoad: (Engine Initialization) Total time: 44.09 seconds
+[2017.06.08-11.25.26:338][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.06.08-11.25.26:338][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.08-11.25.26:338][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.08-11.25.26:679][  0]LogOcInput: OculusInput pre-init called
+[2017.06.08-11.25.26:679][  0]LogHMD: Starting GearVRController plugin
+[2017.06.08-11.25.26:722][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.08-11.25.27:036][  1]LogAssetRegistry: Asset discovery search completed in 26.2820 seconds
+[2017.06.08-11.25.27:039][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.08-11.25.27:039][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.06.08-11.25.32:344][ 17]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' took 5.65s
+[2017.06.08-11.43.06:055][433]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.08-11.45.54:327][499]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2017.06.08-11.46.26:653][621]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.08-11.46.27:455][640]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.06.08-11.46.38:994][946]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.06.08-11.46.41:276][  4]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.06.08-11.46.46:437][140]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.06.08-11.46.53:085][312]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.06.08-11.46.55:508][411]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.06.08-11.47.00:115][531]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.06.08-11.47.50:716][926]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.06.08-11.48.58:347][878]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2017.06.08-11.49.14:365][518]LogSlate: Took 0.002107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.08-11.49.23:368][881]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.08-11.49.24:427][881]LogSavePackage: Save=979.44ms
+[2017.06.08-11.49.24:427][881]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/TheIslandLevel_Auto117E167E24B934730AEE9349EADE08D0E.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/TheIslandLevel_Auto1.umap'
+[2017.06.08-11.49.24:432][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Maps/TheIslandLevel_Auto1.umap
+[2017.06.08-11.49.24:435][881]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.08-11.49.24:439][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheIslandLevel' took 1.038
+[2017.06.08-11.49.24:439][881]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.038
+[2017.06.08-11.52.07:265][421]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.06.08-11.52.08:086][422]LogRenderer: Reallocating scene render targets to support 1332x708 NumSamples 1 (Frame:1).
+[2017.06.08-11.52.21:099][200]LogSlate: Took 0.002497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.08-11.52.36:442][119]LogSlate: Took 0.002057 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.08-11.53.41:003][979]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.08-11.54.19:074][182]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\bilal\Downloads\Jill.fbx)
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: Model, ItemCount : 122
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: Material, ItemCount : 6
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: Texture, ItemCount : 3
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: Video, ItemCount : 3
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: Pose, ItemCount : 8
+[2017.06.08-11.54.19:186][182]LogFbx: ItemName: Deformer, ItemCount : 221
+[2017.06.08-11.54.19:195][182]LogFbx: Loading FBX Scene from C:\Users\bilal\Downloads\Jill.fbx
+[2017.06.08-11.54.19:298][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.08-11.54.29:523][182]LogFbx: Loading FBX Scene from C:\Users\bilal\Downloads\Jill.fbx
+[2017.06.08-11.54.29:625][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.08-11.54.29:638][182]LogFbx: =================================================
+[2017.06.08-11.54.29:638][182]LogFbx: Dumping Node START [Jill_HiRes_Hair_Geo] 
+[2017.06.08-11.54.29:638][182]LogFbx: 	Total Deformer Count 836569120.
+[2017.06.08-11.54.29:638][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Hair_Geo (Type Skin).
+[2017.06.08-11.54.29:638][182]LogFbx: =================================================
+[2017.06.08-11.54.29:638][182]LogFbx: 	Attribute (Jill_HiRes_Hair_Geo) Type (4).
+[2017.06.08-11.54.29:638][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Hair_Geo (Type Mesh).
+[2017.06.08-11.54.29:638][182]LogFbx: Dumping Node END [Jill_HiRes_Hair_Geo]
+[2017.06.08-11.54.29:638][182]LogFbx: =================================================
+[2017.06.08-11.54.29:638][182]LogFbx: Dumping Node START [Jill_HiRes_EyeSpec_Geo] 
+[2017.06.08-11.54.29:638][182]LogFbx: 	Total Deformer Count 836569120.
+[2017.06.08-11.54.29:638][182]LogFbx: 		[Node 1] Skin Jill_HiRes_EyeSpec_Geo (Type Skin).
+[2017.06.08-11.54.29:638][182]LogFbx: =================================================
+[2017.06.08-11.54.29:638][182]LogFbx: 	Attribute (Jill_HiRes_EyeSpec_Geo) Type (4).
+[2017.06.08-11.54.29:638][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_EyeSpec_Geo (Type Mesh).
+[2017.06.08-11.54.29:638][182]LogFbx: Dumping Node END [Jill_HiRes_EyeSpec_Geo]
+[2017.06.08-11.54.29:638][182]LogFbx: =================================================
+[2017.06.08-11.54.29:638][182]LogFbx: Dumping Node START [Jill_HiRes_Eyes_Geo] 
+[2017.06.08-11.54.29:638][182]LogFbx: 	Total Deformer Count 836569120.
+[2017.06.08-11.54.29:638][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Eyes_Geo (Type Skin).
+[2017.06.08-11.54.29:638][182]LogFbx: =================================================
+[2017.06.08-11.54.29:638][182]LogFbx: 	Attribute (Jill_HiRes_Eyes_Geo) Type (4).
+[2017.06.08-11.54.29:638][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Eyes_Geo (Type Mesh).
+[2017.06.08-11.54.29:638][182]LogFbx: Dumping Node END [Jill_HiRes_Eyes_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Caruncula_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 833086464.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Caruncula_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Caruncula_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Caruncula_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Caruncula_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Limbs_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Limbs_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Limbs_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Limbs_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Limbs_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Gown_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Gown_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Gown_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Gown_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Gown_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Teeth_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Teeth_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Teeth_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Teeth_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Teeth_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Head_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Head_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Head_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Head_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Head_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Hair_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Hair_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Hair_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Hair_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Hair_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_EyeSpec_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_EyeSpec_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_EyeSpec_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_EyeSpec_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_EyeSpec_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Eyes_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836569312.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Eyes_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Eyes_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Eyes_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Eyes_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Caruncula_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 833084560.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Caruncula_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Caruncula_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Caruncula_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Caruncula_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Limbs_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 836567392.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Limbs_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Limbs_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Limbs_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Limbs_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Gown_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 821265216.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Gown_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Gown_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Gown_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Gown_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Teeth_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 821265216.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Teeth_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Teeth_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Teeth_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Teeth_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Head_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 821265216.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Head_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Head_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Head_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Head_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_Hair_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 821265216.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Hair_Geo (Type Skin).
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: 	Attribute (Jill_HiRes_Hair_Geo) Type (4).
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Hair_Geo (Type Mesh).
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node END [Jill_HiRes_Hair_Geo]
+[2017.06.08-11.54.29:639][182]LogFbx: =================================================
+[2017.06.08-11.54.29:639][182]LogFbx: Dumping Node START [Jill_HiRes_EyeSpec_Geo] 
+[2017.06.08-11.54.29:639][182]LogFbx: 	Total Deformer Count 821265216.
+[2017.06.08-11.54.29:639][182]LogFbx: 		[Node 1] Skin Jill_HiRes_EyeSpec_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_EyeSpec_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_EyeSpec_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_EyeSpec_Geo]
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node START [Jill_HiRes_Eyes_Geo] 
+[2017.06.08-11.54.29:640][182]LogFbx: 	Total Deformer Count 821265216.
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Eyes_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_Eyes_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Eyes_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_Eyes_Geo]
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node START [Jill_HiRes_Caruncula_Geo] 
+[2017.06.08-11.54.29:640][182]LogFbx: 	Total Deformer Count 833082432.
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Caruncula_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_Caruncula_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Caruncula_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_Caruncula_Geo]
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node START [Jill_HiRes_Limbs_Geo] 
+[2017.06.08-11.54.29:640][182]LogFbx: 	Total Deformer Count 821278944.
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Limbs_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_Limbs_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Limbs_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_Limbs_Geo]
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node START [Jill_HiRes_Gown_Geo] 
+[2017.06.08-11.54.29:640][182]LogFbx: 	Total Deformer Count 821278944.
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Gown_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_Gown_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Gown_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_Gown_Geo]
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node START [Jill_HiRes_Teeth_Geo] 
+[2017.06.08-11.54.29:640][182]LogFbx: 	Total Deformer Count 821278944.
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Teeth_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_Teeth_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Teeth_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_Teeth_Geo]
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node START [Jill_HiRes_Head_Geo] 
+[2017.06.08-11.54.29:640][182]LogFbx: 	Total Deformer Count 821278944.
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node 1] Skin Jill_HiRes_Head_Geo (Type Skin).
+[2017.06.08-11.54.29:640][182]LogFbx: =================================================
+[2017.06.08-11.54.29:640][182]LogFbx: 	Attribute (Jill_HiRes_Head_Geo) Type (4).
+[2017.06.08-11.54.29:640][182]LogFbx: 		[Node Attribute Child 1] Jill_HiRes_Head_Geo (Type Mesh).
+[2017.06.08-11.54.29:640][182]LogFbx: Dumping Node END [Jill_HiRes_Head_Geo]
+[2017.06.08-11.54.29:644][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Hair_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:644][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_EyeSpec_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Eyes_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Caruncula_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Limbs_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Gown_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Teeth_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Jill_HiRes_Head_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Hair_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_EyeSpec_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:645][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Eyes_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:646][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Caruncula_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:646][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Limbs_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:646][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Gown_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:646][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Teeth_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:646][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node Jill_HiRes_Head_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:647][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Hair_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:647][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_EyeSpec_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:648][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Eyes_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:648][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Caruncula_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:649][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Limbs_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:649][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Gown_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:650][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Teeth_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:650][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node Jill_HiRes_Head_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:651][182]LogFbx: Valid bind pose for Pose (skinCluster4) - Jill_HiRes_Hair_Geo
+[2017.06.08-11.54.29:652][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Hair_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:652][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_EyeSpec_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:652][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Eyes_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:653][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Caruncula_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:653][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Limbs_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:653][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Gown_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:654][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Teeth_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:654][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node Jill_HiRes_Head_Geo : The relative matrices do not match
+[2017.06.08-11.54.29:654][182]LogFbx: Valid bind pose for Pose (skinCluster6) - Jill_HiRes_Hair_Geo
+[2017.06.08-11.54.29:654][182]LogFbx: Valid bind pose for Pose (skinCluster7) - Jill_HiRes_Hair_Geo
+[2017.06.08-11.54.29:655][182]LogFbx: Valid bind pose for Pose (skinCluster8) - Jill_HiRes_Hair_Geo
+[2017.06.08-11.54.29:659][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT'
+[2017.06.08-11.54.29:659][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT'
+[2017.06.08-11.54.29:661][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT.Jill_HiMidRes_Hair_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.54.29:663][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Hair_MAT, compiling. 
+[2017.06.08-11.54.29:717][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse'
+[2017.06.08-11.54.29:717][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse'
+[2017.06.08-11.54.30:101][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.32:331][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_specular'
+[2017.06.08-11.54.32:331][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_specular'
+[2017.06.08-11.54.32:690][182]LogTexture:Display: Building textures: Jill_HiMidRes_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.54.33:763][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_normal'
+[2017.06.08-11.54.33:763][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_normal'
+[2017.06.08-11.54.34:139][182]LogTexture:Display: Building textures: Jill_HiMidRes_normal (BC5, 2048X2048)
+[2017.06.08-11.54.34:592][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Hair_MAT, compiling. 
+[2017.06.08-11.54.34:630][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Hair_Geo
+[2017.06.08-11.54.34:654][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT'
+[2017.06.08-11.54.34:654][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT'
+[2017.06.08-11.54.34:655][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT.Jill_HiMidRes_EyeSpec_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.54.34:657][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_EyeSpec_MAT, compiling. 
+[2017.06.08-11.54.35:099][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.37:691][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.39:897][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_EyeSpec_MAT, compiling. 
+[2017.06.08-11.54.39:967][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_EyeSpec_Geo
+[2017.06.08-11.54.40:071][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT'
+[2017.06.08-11.54.40:071][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT'
+[2017.06.08-11.54.40:072][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT.Jill_HiMidRes_Eyes_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.54.40:074][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Eyes_MAT, compiling. 
+[2017.06.08-11.54.40:524][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.42:761][182]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Jill_HiMidRes_normal
+[2017.06.08-11.54.43:127][182]LogTexture:Display: Building textures: Jill_HiMidRes_normal (BC5, 2048X2048)
+[2017.06.08-11.54.43:595][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Eyes_MAT, compiling. 
+[2017.06.08-11.54.43:645][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Eyes_Geo
+[2017.06.08-11.54.43:782][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT'
+[2017.06.08-11.54.43:782][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT'
+[2017.06.08-11.54.43:783][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT.Jill_HiMidRes_Teeth_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.54.43:786][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Teeth_MAT, compiling. 
+[2017.06.08-11.54.44:215][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.46:769][182]LogTexture:Display: Building textures: Jill_HiMidRes_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.54.47:883][182]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Jill_HiMidRes_normal
+[2017.06.08-11.54.48:269][182]LogTexture:Display: Building textures: Jill_HiMidRes_normal (BC5, 2048X2048)
+[2017.06.08-11.54.48:746][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Teeth_MAT, compiling. 
+[2017.06.08-11.54.48:796][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Caruncula_Geo
+[2017.06.08-11.54.48:801][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT'
+[2017.06.08-11.54.48:802][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT'
+[2017.06.08-11.54.48:803][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT.Jill_HiMidRes_Body_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.54.48:806][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Body_MAT, compiling. 
+[2017.06.08-11.54.49:253][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.51:765][182]LogTexture:Display: Building textures: Jill_HiMidRes_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.54.52:862][182]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Jill_HiMidRes_normal
+[2017.06.08-11.54.53:234][182]LogTexture:Display: Building textures: Jill_HiMidRes_normal (BC5, 2048X2048)
+[2017.06.08-11.54.53:694][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Body_MAT, compiling. 
+[2017.06.08-11.54.53:755][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Limbs_Geo
+[2017.06.08-11.54.54:211][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT'
+[2017.06.08-11.54.54:211][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT'
+[2017.06.08-11.54.54:212][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT.Jill_HiMidRes_Gown_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.54.54:215][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Gown_MAT, compiling. 
+[2017.06.08-11.54.54:638][182]LogTexture:Display: Building textures: Jill_HiMidRes_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.54.57:200][182]LogTexture:Display: Building textures: Jill_HiMidRes_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.54.58:309][182]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Jill_HiMidRes_normal
+[2017.06.08-11.54.58:672][182]LogTexture:Display: Building textures: Jill_HiMidRes_normal (BC5, 2048X2048)
+[2017.06.08-11.54.59:140][182]LogMaterial: Missing cached shader map for material Jill_HiMidRes_Gown_MAT, compiling. 
+[2017.06.08-11.54.59:203][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Gown_Geo
+[2017.06.08-11.54.59:357][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Teeth_Geo
+[2017.06.08-11.54.59:583][182]LogFbx: Triangulating skeletal mesh Jill_HiRes_Head_Geo
+[2017.06.08-11.54.59:978][182]LogFbx:Warning: Bones digested - 113  Depth of hierarchy - 12
+[2017.06.08-11.55.00:444][182]LogSkeletalMesh: Section 0: 963 vertices, 3 active bones
+[2017.06.08-11.55.00:444][182]LogSkeletalMesh: Section 1: 602 vertices, 2 active bones
+[2017.06.08-11.55.00:444][182]LogSkeletalMesh: Section 2: 804 vertices, 2 active bones
+[2017.06.08-11.55.00:444][182]LogSkeletalMesh: Section 3: 1795 vertices, 5 active bones
+[2017.06.08-11.55.00:444][182]LogSkeletalMesh: Section 4: 5037 vertices, 100 active bones
+[2017.06.08-11.55.00:444][182]LogSkeletalMesh: Section 5: 1149 vertices, 15 active bones
+[2017.06.08-11.55.00:475][182]LogSkeletalMesh: Section 0: Material=0, 1710 triangles
+[2017.06.08-11.55.00:475][182]LogSkeletalMesh: Section 1: Material=1, 1080 triangles
+[2017.06.08-11.55.00:475][182]LogSkeletalMesh: Section 2: Material=2, 1520 triangles
+[2017.06.08-11.55.00:475][182]LogSkeletalMesh: Section 3: Material=3, 2456 triangles
+[2017.06.08-11.55.00:475][182]LogSkeletalMesh: Section 4: Material=4, 8604 triangles
+[2017.06.08-11.55.00:475][182]LogSkeletalMesh: Section 5: Material=5, 1612 triangles
+[2017.06.08-11.55.00:486][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_Skeleton'
+[2017.06.08-11.55.00:486][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_Skeleton'
+[2017.06.08-11.55.00:492][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_PhysicsAsset'
+[2017.06.08-11.55.00:492][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Jill_PhysicsAsset'
+[2017.06.08-11.55.00:512][182]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.08-11.55.00:512][182]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandMiddle1  
+RightHandMiddle2  
+RightHandMiddle3  
+RightHandMiddle4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.06.08-11.55.00:590][182]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\bilal\Downloads\Zombiegirl_W_Kurniawan.fbx)
+[2017.06.08-11.55.00:692][182]LogFbx: Loading FBX Scene from C:\Users\bilal\Downloads\Zombiegirl_W_Kurniawan.fbx
+[2017.06.08-11.55.00:777][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.08-11.55.00:788][182]LogFbx: =================================================
+[2017.06.08-11.55.00:788][182]LogFbx: Dumping Node START [ZombieGirl_Body] 
+[2017.06.08-11.55.00:788][182]LogFbx: 	Total Deformer Count 822263952.
+[2017.06.08-11.55.00:788][182]LogFbx: 		[Node 1] Skin ZombieGirl_Body (Type Skin).
+[2017.06.08-11.55.00:788][182]LogFbx: =================================================
+[2017.06.08-11.55.00:788][182]LogFbx: 	Attribute (ZombieGirl_Body) Type (4).
+[2017.06.08-11.55.00:788][182]LogFbx: 		[Node Attribute Child 1] ZombieGirl_Body (Type Mesh).
+[2017.06.08-11.55.00:788][182]LogFbx: Dumping Node END [ZombieGirl_Body]
+[2017.06.08-11.55.00:788][182]LogFbx: =================================================
+[2017.06.08-11.55.00:788][182]LogFbx: Dumping Node START [ZombieGirl_Pants] 
+[2017.06.08-11.55.00:788][182]LogFbx: 	Total Deformer Count 822263952.
+[2017.06.08-11.55.00:788][182]LogFbx: 		[Node 1] Skin ZombieGirl_Pants (Type Skin).
+[2017.06.08-11.55.00:788][182]LogFbx: =================================================
+[2017.06.08-11.55.00:788][182]LogFbx: 	Attribute (ZombieGirl_Pants) Type (4).
+[2017.06.08-11.55.00:788][182]LogFbx: 		[Node Attribute Child 1] ZombieGirl_Pants (Type Mesh).
+[2017.06.08-11.55.00:788][182]LogFbx: Dumping Node END [ZombieGirl_Pants]
+[2017.06.08-11.55.00:788][182]LogFbx: =================================================
+[2017.06.08-11.55.00:788][182]LogFbx: Dumping Node START [ZombieGirl_Top] 
+[2017.06.08-11.55.00:788][182]LogFbx: 	Total Deformer Count 822263952.
+[2017.06.08-11.55.00:788][182]LogFbx: 		[Node 1] Skin ZombieGirl_Top (Type Skin).
+[2017.06.08-11.55.00:788][182]LogFbx: =================================================
+[2017.06.08-11.55.00:788][182]LogFbx: 	Attribute (ZombieGirl_Top) Type (4).
+[2017.06.08-11.55.00:788][182]LogFbx: 		[Node Attribute Child 1] ZombieGirl_Top (Type Mesh).
+[2017.06.08-11.55.00:788][182]LogFbx: Dumping Node END [ZombieGirl_Top]
+[2017.06.08-11.55.00:789][182]LogFbx: =================================================
+[2017.06.08-11.55.00:789][182]LogFbx: Dumping Node START [ZombieGirl_Body] 
+[2017.06.08-11.55.00:789][182]LogFbx: 	Total Deformer Count 822263952.
+[2017.06.08-11.55.00:789][182]LogFbx: 		[Node 1] Skin ZombieGirl_Body (Type Skin).
+[2017.06.08-11.55.00:789][182]LogFbx: =================================================
+[2017.06.08-11.55.00:789][182]LogFbx: 	Attribute (ZombieGirl_Body) Type (4).
+[2017.06.08-11.55.00:789][182]LogFbx: 		[Node Attribute Child 1] ZombieGirl_Body (Type Mesh).
+[2017.06.08-11.55.00:789][182]LogFbx: Dumping Node END [ZombieGirl_Body]
+[2017.06.08-11.55.00:789][182]LogFbx: =================================================
+[2017.06.08-11.55.00:789][182]LogFbx: Dumping Node START [ZombieGirl_Pants] 
+[2017.06.08-11.55.00:789][182]LogFbx: 	Total Deformer Count 822263952.
+[2017.06.08-11.55.00:789][182]LogFbx: 		[Node 1] Skin ZombieGirl_Pants (Type Skin).
+[2017.06.08-11.55.00:789][182]LogFbx: =================================================
+[2017.06.08-11.55.00:789][182]LogFbx: 	Attribute (ZombieGirl_Pants) Type (4).
+[2017.06.08-11.55.00:789][182]LogFbx: 		[Node Attribute Child 1] ZombieGirl_Pants (Type Mesh).
+[2017.06.08-11.55.00:789][182]LogFbx: Dumping Node END [ZombieGirl_Pants]
+[2017.06.08-11.55.00:789][182]LogFbx: =================================================
+[2017.06.08-11.55.00:789][182]LogFbx: Dumping Node START [ZombieGirl_Top] 
+[2017.06.08-11.55.00:789][182]LogFbx: 	Total Deformer Count 822263952.
+[2017.06.08-11.55.00:789][182]LogFbx: 		[Node 1] Skin ZombieGirl_Top (Type Skin).
+[2017.06.08-11.55.00:789][182]LogFbx: =================================================
+[2017.06.08-11.55.00:789][182]LogFbx: 	Attribute (ZombieGirl_Top) Type (4).
+[2017.06.08-11.55.00:789][182]LogFbx: 		[Node Attribute Child 1] ZombieGirl_Top (Type Mesh).
+[2017.06.08-11.55.00:789][182]LogFbx: Dumping Node END [ZombieGirl_Top]
+[2017.06.08-11.55.00:790][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node ZombieGirl_Body : The relative matrices do not match
+[2017.06.08-11.55.00:790][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node ZombieGirl_Pants : The relative matrices do not match
+[2017.06.08-11.55.00:791][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node ZombieGirl_Top : The relative matrices do not match
+[2017.06.08-11.55.00:791][182]LogFbx: Valid bind pose for Pose (skinCluster2) - ZombieGirl_Body
+[2017.06.08-11.55.00:791][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node ZombieGirl_Body : The relative matrices do not match
+[2017.06.08-11.55.00:792][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node ZombieGirl_Pants : The relative matrices do not match
+[2017.06.08-11.55.00:792][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node ZombieGirl_Top : The relative matrices do not match
+[2017.06.08-11.55.00:794][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/ZombieGirl_Material'
+[2017.06.08-11.55.00:794][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/ZombieGirl_Material'
+[2017.06.08-11.55.00:796][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/ZombieGirl_Material.ZombieGirl_Material needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.55.00:799][182]LogMaterial: Missing cached shader map for material ZombieGirl_Material, compiling. 
+[2017.06.08-11.55.00:844][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/zombie_diffuse'
+[2017.06.08-11.55.00:844][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/zombie_diffuse'
+[2017.06.08-11.55.01:256][182]LogTexture:Display: Building textures: zombie_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.55.03:775][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/zombie_specular'
+[2017.06.08-11.55.03:775][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/zombie_specular'
+[2017.06.08-11.55.04:089][182]LogTexture:Display: Building textures: zombie_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.55.04:876][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/zombie_normal'
+[2017.06.08-11.55.04:877][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/zombie_normal'
+[2017.06.08-11.55.05:239][182]LogTexture:Display: Building textures: zombie_normal (BC5, 2048X2048)
+[2017.06.08-11.55.06:086][182]LogTexture:Display: Building textures: zombie_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.55.08:386][182]LogMaterial: Missing cached shader map for material ZombieGirl_Material, compiling. 
+[2017.06.08-11.55.08:431][182]LogFbx: Triangulating skeletal mesh ZombieGirl_Body
+[2017.06.08-11.55.08:942][182]LogFbx: Triangulating skeletal mesh ZombieGirl_Pants
+[2017.06.08-11.55.09:022][182]LogFbx: Triangulating skeletal mesh ZombieGirl_Top
+[2017.06.08-11.55.09:140][182]LogFbx:Warning: Bones digested - 61  Depth of hierarchy - 12
+[2017.06.08-11.55.09:330][182]LogSkeletalMesh: Section 0: 4686 vertices, 51 active bones
+[2017.06.08-11.55.09:338][182]LogSkeletalMesh: Section 0: Material=0, 7448 triangles
+[2017.06.08-11.55.09:343][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton'
+[2017.06.08-11.55.09:343][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton'
+[2017.06.08-11.55.09:349][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset'
+[2017.06.08-11.55.09:349][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset'
+[2017.06.08-11.55.09:364][182]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.08-11.55.09:364][182]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Neck  
+Head  
+HeadTop_End  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+LeftToe_End  
+RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.06.08-11.55.09:398][182]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\bilal\Downloads\Zombie.fbx)
+[2017.06.08-11.55.09:455][182]LogFbx: Loading FBX Scene from C:\Users\bilal\Downloads\Zombie.fbx
+[2017.06.08-11.55.09:567][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.08-11.55.09:578][182]LogFbx: =================================================
+[2017.06.08-11.55.09:578][182]LogFbx: Dumping Node START [Zombie_Geo] 
+[2017.06.08-11.55.09:578][182]LogFbx: 	Total Deformer Count 1414298624.
+[2017.06.08-11.55.09:578][182]LogFbx: 		[Node 1] Skin Zombie_Geo (Type Skin).
+[2017.06.08-11.55.09:578][182]LogFbx: =================================================
+[2017.06.08-11.55.09:578][182]LogFbx: 	Attribute (Zombie_Geo) Type (4).
+[2017.06.08-11.55.09:578][182]LogFbx: 		[Node Attribute Child 1] Zombie_Geo (Type Mesh).
+[2017.06.08-11.55.09:578][182]LogFbx: Dumping Node END [Zombie_Geo]
+[2017.06.08-11.55.09:581][182]LogFbx: =================================================
+[2017.06.08-11.55.09:581][182]LogFbx: Dumping Node START [Zombie_Geo] 
+[2017.06.08-11.55.09:581][182]LogFbx: 	Total Deformer Count 1414298624.
+[2017.06.08-11.55.09:581][182]LogFbx: 		[Node 1] Skin Zombie_Geo (Type Skin).
+[2017.06.08-11.55.09:581][182]LogFbx: =================================================
+[2017.06.08-11.55.09:581][182]LogFbx: 	Attribute (Zombie_Geo) Type (4).
+[2017.06.08-11.55.09:581][182]LogFbx: 		[Node Attribute Child 1] Zombie_Geo (Type Mesh).
+[2017.06.08-11.55.09:581][182]LogFbx: Dumping Node END [Zombie_Geo]
+[2017.06.08-11.55.09:582][182]LogFbx: Valid bind pose for Pose (skinCluster1) - Zombie_Geo
+[2017.06.08-11.55.09:586][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombie_COL'
+[2017.06.08-11.55.09:586][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombie_COL'
+[2017.06.08-11.55.09:587][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/Zombie_COL.Zombie_COL needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.55.09:590][182]LogMaterial: Missing cached shader map for material Zombie_COL, compiling. 
+[2017.06.08-11.55.09:963][182]LogTexture:Display: Building textures: Zombie_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.55.11:387][182]LogTexture:Display: Building textures: Zombie_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.55.12:172][182]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Zombie_normal
+[2017.06.08-11.55.12:483][182]LogTexture:Display: Building textures: Zombie_normal (BC5, 2048X2048)
+[2017.06.08-11.55.12:878][182]LogMaterial: Missing cached shader map for material Zombie_COL, compiling. 
+[2017.06.08-11.55.12:940][182]LogFbx: Triangulating skeletal mesh Zombie_Geo
+[2017.06.08-11.55.14:213][182]LogFbx:Warning: Bones digested - 90  Depth of hierarchy - 12
+[2017.06.08-11.55.14:571][182]LogSkeletalMesh: Section 0: 8204 vertices, 74 active bones
+[2017.06.08-11.55.14:599][182]LogSkeletalMesh: Section 0: Material=0, 13023 triangles
+[2017.06.08-11.55.14:605][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombie_Skeleton'
+[2017.06.08-11.55.14:605][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombie_Skeleton'
+[2017.06.08-11.55.14:610][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombie_PhysicsAsset'
+[2017.06.08-11.55.14:610][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Zombie_PhysicsAsset'
+[2017.06.08-11.55.14:627][182]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.08-11.55.14:627][182]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Zombie:HeadTop_End  
+Zombie:LeftHandThumb4  
+Zombie:LeftHandMiddle4  
+Zombie:LeftHandIndex4  
+Zombie:LeftHandRing4  
+Zombie:LeftHandPinky4  
+Zombie:RightHandThumb4  
+Zombie:RightHandIndex4  
+Zombie:RightHandMiddle4  
+Zombie:RightHandRing4  
+Zombie:RightHandPinky4  
+Zombie:LeftFootToeBase_End  
+Zombie:RightFootToeBase_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.06.08-11.55.14:712][182]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\bilal\Downloads\Yaku_J_Ignite.fbx)
+[2017.06.08-11.55.14:857][182]LogFbx: Loading FBX Scene from C:\Users\bilal\Downloads\Yaku_J_Ignite.fbx
+[2017.06.08-11.55.14:949][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.08-11.55.14:959][182]LogFbx: =================================================
+[2017.06.08-11.55.14:959][182]LogFbx: Dumping Node START [Yaku_zombie] 
+[2017.06.08-11.55.14:959][182]LogFbx: 	Total Deformer Count 1691341504.
+[2017.06.08-11.55.14:959][182]LogFbx: 		[Node 1] Skin Yaku_zombie (Type Skin).
+[2017.06.08-11.55.14:959][182]LogFbx: =================================================
+[2017.06.08-11.55.14:959][182]LogFbx: 	Attribute (Yaku_zombie) Type (4).
+[2017.06.08-11.55.14:959][182]LogFbx: 		[Node Attribute Child 1] Yaku_zombie (Type Mesh).
+[2017.06.08-11.55.14:960][182]LogFbx: Dumping Node END [Yaku_zombie]
+[2017.06.08-11.55.14:962][182]LogFbx: =================================================
+[2017.06.08-11.55.14:962][182]LogFbx: Dumping Node START [Yaku_zombie] 
+[2017.06.08-11.55.14:962][182]LogFbx: 	Total Deformer Count 1691341504.
+[2017.06.08-11.55.14:962][182]LogFbx: 		[Node 1] Skin Yaku_zombie (Type Skin).
+[2017.06.08-11.55.14:962][182]LogFbx: =================================================
+[2017.06.08-11.55.14:962][182]LogFbx: 	Attribute (Yaku_zombie) Type (4).
+[2017.06.08-11.55.14:962][182]LogFbx: 		[Node Attribute Child 1] Yaku_zombie (Type Mesh).
+[2017.06.08-11.55.14:962][182]LogFbx: Dumping Node END [Yaku_zombie]
+[2017.06.08-11.55.14:963][182]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Yaku_zombie : The relative matrices do not match
+[2017.06.08-11.55.14:963][182]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.06.08-11.55.14:964][182]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Yaku_zombie
+[2017.06.08-11.55.14:964][182]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.06.08-11.55.14:966][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/yaku_zombie_material'
+[2017.06.08-11.55.14:966][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/yaku_zombie_material'
+[2017.06.08-11.55.14:967][182]LogMaterial:Warning: Material /Game/Assest/Zombies_characters/yaku_zombie_material.yaku_zombie_material needed to have new flag set bUsedWithSkeletalMesh !
+[2017.06.08-11.55.14:970][182]LogMaterial: Missing cached shader map for material yaku_zombie_material, compiling. 
+[2017.06.08-11.55.15:021][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yakuzombie_diffuse'
+[2017.06.08-11.55.15:021][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yakuzombie_diffuse'
+[2017.06.08-11.55.15:433][182]LogTexture:Display: Building textures: Yakuzombie_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.55.17:456][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yakuzombie_specular'
+[2017.06.08-11.55.17:456][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yakuzombie_specular'
+[2017.06.08-11.55.17:799][182]LogTexture:Display: Building textures: Yakuzombie_specular (AutoDXT, 2048X2048)
+[2017.06.08-11.55.19:823][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yakuzombie_normal'
+[2017.06.08-11.55.19:823][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yakuzombie_normal'
+[2017.06.08-11.55.20:234][182]LogTexture:Display: Building textures: Yakuzombie_normal (BC5, 2048X2048)
+[2017.06.08-11.55.21:064][182]LogTexture:Display: Building textures: Yakuzombie_diffuse (AutoDXT, 2048X2048)
+[2017.06.08-11.55.22:780][182]LogMaterial: Missing cached shader map for material yaku_zombie_material, compiling. 
+[2017.06.08-11.55.22:855][182]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.06.08-11.55.23:077][182]LogSkeletalMesh: Section 0: 4959 vertices, 50 active bones
+[2017.06.08-11.55.23:086][182]LogSkeletalMesh: Section 0: Material=0, 8144 triangles
+[2017.06.08-11.55.23:092][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton'
+[2017.06.08-11.55.23:092][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton'
+[2017.06.08-11.55.23:097][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset'
+[2017.06.08-11.55.23:097][182]LogLinker: Can't find file '/Game/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset'
+[2017.06.08-11.55.23:112][182]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.08-11.55.46:678][572]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.08-11.55.46:856][572]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.08-11.55.46:925][572]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.08-11.55.47:220][572]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.06.08-11.55.57:235][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.06.08-11.55.57:260][164]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.06.08-11.57.37:129][114]BlueprintLog: New page: Compile ZombieAI
+[2017.06.08-11.59.38:854][395]BlueprintLog: New page: Compile ZombieAI
+[2017.06.08-12.00.05:618][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheIslandLevel' took 0.016
+[2017.06.08-12.00.05:621][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/ZombieAI] ([1] browsable assets)...
+[2017.06.08-12.00.05:641][909]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/ZombieAI.ZombieAI]
+[2017.06.08-12.00.05:641][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/ZombieAI]
+[2017.06.08-12.00.05:667][909]LogSavePackage: Save=21.41ms
+[2017.06.08-12.00.05:667][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/ZombieAI_Auto2D7734DD54045A0211EF48B955C6CE0F6.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Character/ZombieAI_Auto2.uasset'
+[2017.06.08-12.00.05:669][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Character/ZombieAI_Auto2.uasset
+[2017.06.08-12.00.05:671][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill] ([1] browsable assets)...
+[2017.06.08-12.00.05:685][909]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assest/Zombies_characters/Jill.Jill]
+[2017.06.08-12.00.05:685][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill]
+[2017.06.08-12.00.05:729][909]LogSavePackage: Save=41.31ms
+[2017.06.08-12.00.05:729][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_Auto2F6C21D2D4C3EDB01A2F0D4980201092C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_Auto2.uasset'
+[2017.06.08-12.00.05:732][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_Auto2.uasset
+[2017.06.08-12.00.05:734][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT] ([1] browsable assets)...
+[2017.06.08-12.00.05:746][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT.Jill_HiMidRes_Hair_MAT]
+[2017.06.08-12.00.05:746][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT]
+[2017.06.08-12.00.05:764][909]LogSavePackage: Save=15.38ms
+[2017.06.08-12.00.05:764][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Hair_MAT_Auto2E56E66E94C26587BC33D59955D8F54D2.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT_Auto2.uasset'
+[2017.06.08-12.00.05:767][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT_Auto2.uasset
+[2017.06.08-12.00.05:768][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse] ([1] browsable assets)...
+[2017.06.08-12.00.05:775][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse.Jill_HiMidRes_diffuse]
+[2017.06.08-12.00.05:775][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse]
+[2017.06.08-12.00.05:797][909]LogSavePackage: Save=18.49ms
+[2017.06.08-12.00.05:797][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_diffuse_Auto2010B1D0D4D0401C1C33E538732C9E859.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse_Auto2.uasset'
+[2017.06.08-12.00.05:799][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_diffuse_Auto2.uasset
+[2017.06.08-12.00.05:801][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_specular] ([1] browsable assets)...
+[2017.06.08-12.00.05:808][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/Jill_HiMidRes_specular.Jill_HiMidRes_specular]
+[2017.06.08-12.00.05:808][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_specular]
+[2017.06.08-12.00.05:830][909]LogSavePackage: Save=19.22ms
+[2017.06.08-12.00.05:831][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_specular_Auto2FDEA1D1E441CB576FA5A2E9EB539FB59.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_specular_Auto2.uasset'
+[2017.06.08-12.00.05:833][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_specular_Auto2.uasset
+[2017.06.08-12.00.05:835][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_normal] ([1] browsable assets)...
+[2017.06.08-12.00.05:844][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/Jill_HiMidRes_normal.Jill_HiMidRes_normal]
+[2017.06.08-12.00.05:844][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_normal]
+[2017.06.08-12.00.05:865][909]LogSavePackage: Save=18.57ms
+[2017.06.08-12.00.05:865][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_normal_Auto230F7539B459441D61C5957AB4256F978.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_normal_Auto2.uasset'
+[2017.06.08-12.00.05:869][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_normal_Auto2.uasset
+[2017.06.08-12.00.05:870][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT] ([1] browsable assets)...
+[2017.06.08-12.00.05:883][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT.Jill_HiMidRes_EyeSpec_MAT]
+[2017.06.08-12.00.05:883][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT]
+[2017.06.08-12.00.05:899][909]LogSavePackage: Save=13.23ms
+[2017.06.08-12.00.05:900][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_EyeSpec_MAT_Auto2E7257AC94AB613F02D627A942FB35ABE.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT_Auto2.uasset'
+[2017.06.08-12.00.05:902][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT_Auto2.uasset
+[2017.06.08-12.00.05:903][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT] ([1] browsable assets)...
+[2017.06.08-12.00.05:916][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT.Jill_HiMidRes_Eyes_MAT]
+[2017.06.08-12.00.05:916][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT]
+[2017.06.08-12.00.05:934][909]LogSavePackage: Save=14.93ms
+[2017.06.08-12.00.05:934][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Eyes_MAT_Auto29CEF5F78429810B1D76C93BD5E698505.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT_Auto2.uasset'
+[2017.06.08-12.00.05:936][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT_Auto2.uasset
+[2017.06.08-12.00.05:938][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT] ([1] browsable assets)...
+[2017.06.08-12.00.05:949][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT.Jill_HiMidRes_Teeth_MAT]
+[2017.06.08-12.00.05:949][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT]
+[2017.06.08-12.00.05:968][909]LogSavePackage: Save=15.80ms
+[2017.06.08-12.00.05:968][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Teeth_MAT_Auto24AF4FD174CB40226BD048FAF91B307AD.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT_Auto2.uasset'
+[2017.06.08-12.00.05:971][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT_Auto2.uasset
+[2017.06.08-12.00.05:972][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT] ([1] browsable assets)...
+[2017.06.08-12.00.05:984][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT.Jill_HiMidRes_Body_MAT]
+[2017.06.08-12.00.05:984][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT]
+[2017.06.08-12.00.06:002][909]LogSavePackage: Save=14.19ms
+[2017.06.08-12.00.06:002][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Body_MAT_Auto2F19D0BEB4CD5DFA1AD6B07A4F04B91DD.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT_Auto2.uasset'
+[2017.06.08-12.00.06:004][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT_Auto2.uasset
+[2017.06.08-12.00.06:006][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT] ([1] browsable assets)...
+[2017.06.08-12.00.06:019][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT.Jill_HiMidRes_Gown_MAT]
+[2017.06.08-12.00.06:019][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT]
+[2017.06.08-12.00.06:038][909]LogSavePackage: Save=14.95ms
+[2017.06.08-12.00.06:038][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Gown_MAT_Auto26212E15F40E48926CCF82FA246B42199.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT_Auto2.uasset'
+[2017.06.08-12.00.06:040][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT_Auto2.uasset
+[2017.06.08-12.00.06:042][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Jill_Skeleton] ([1] browsable assets)...
+[2017.06.08-12.00.06:042][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_Skeleton]
+[2017.06.08-12.00.06:049][909]LogSavePackage: Save=3.48ms
+[2017.06.08-12.00.06:049][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_Skeleton_Auto2A7D665CA467CA2206E5128900F87F928.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_Skeleton_Auto2.uasset'
+[2017.06.08-12.00.06:051][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_Skeleton_Auto2.uasset
+[2017.06.08-12.00.06:053][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Jill_PhysicsAsset] ([1] browsable assets)...
+[2017.06.08-12.00.06:053][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Jill_PhysicsAsset]
+[2017.06.08-12.00.06:070][909]LogSavePackage: Save=14.57ms
+[2017.06.08-12.00.06:070][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_PhysicsAsset_Auto28CAA0A8249DC8433B91815BE6A2892E1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_PhysicsAsset_Auto2.uasset'
+[2017.06.08-12.00.06:072][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Jill_PhysicsAsset_Auto2.uasset
+[2017.06.08-12.00.06:074][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan] ([1] browsable assets)...
+[2017.06.08-12.00.06:087][909]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan.Zombiegirl_W_Kurniawan]
+[2017.06.08-12.00.06:087][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan]
+[2017.06.08-12.00.06:113][909]LogSavePackage: Save=23.09ms
+[2017.06.08-12.00.06:113][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombiegirl_W_Kurniawan_Auto29B430D944B48A014FE9D1384BC654222.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Auto2.uasset'
+[2017.06.08-12.00.06:116][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Auto2.uasset
+[2017.06.08-12.00.06:118][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/ZombieGirl_Material] ([1] browsable assets)...
+[2017.06.08-12.00.06:130][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/ZombieGirl_Material.ZombieGirl_Material]
+[2017.06.08-12.00.06:130][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/ZombieGirl_Material]
+[2017.06.08-12.00.06:148][909]LogSavePackage: Save=15.49ms
+[2017.06.08-12.00.06:148][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/ZombieGirl_Material_Auto201FB6B7848CE038684B507A049AEB6B3.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/ZombieGirl_Material_Auto2.uasset'
+[2017.06.08-12.00.06:151][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/ZombieGirl_Material_Auto2.uasset
+[2017.06.08-12.00.06:152][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/zombie_diffuse] ([1] browsable assets)...
+[2017.06.08-12.00.06:160][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/zombie_diffuse.Zombie_diffuse]
+[2017.06.08-12.00.06:160][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/zombie_diffuse]
+[2017.06.08-12.00.06:180][909]LogSavePackage: Save=17.75ms
+[2017.06.08-12.00.06:180][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/zombie_diffuse_Auto2594611CA47081A2B084E65883F0BE04B.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/zombie_diffuse_Auto2.uasset'
+[2017.06.08-12.00.06:183][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/zombie_diffuse_Auto2.uasset
+[2017.06.08-12.00.06:185][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/zombie_specular] ([1] browsable assets)...
+[2017.06.08-12.00.06:191][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/zombie_specular.Zombie_specular]
+[2017.06.08-12.00.06:191][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/zombie_specular]
+[2017.06.08-12.00.06:209][909]LogSavePackage: Save=14.51ms
+[2017.06.08-12.00.06:209][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/zombie_specular_Auto2718C9BE940E8F8BE9C6F67BAFB4AC9A6.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/zombie_specular_Auto2.uasset'
+[2017.06.08-12.00.06:211][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/zombie_specular_Auto2.uasset
+[2017.06.08-12.00.06:213][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/zombie_normal] ([1] browsable assets)...
+[2017.06.08-12.00.06:222][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/zombie_normal.Zombie_normal]
+[2017.06.08-12.00.06:222][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/zombie_normal]
+[2017.06.08-12.00.06:244][909]LogSavePackage: Save=17.75ms
+[2017.06.08-12.00.06:244][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/zombie_normal_Auto243F49CE5412FE4EC39ACDBBE93D706BE.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/zombie_normal_Auto2.uasset'
+[2017.06.08-12.00.06:246][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/zombie_normal_Auto2.uasset
+[2017.06.08-12.00.06:248][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton] ([1] browsable assets)...
+[2017.06.08-12.00.06:248][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton]
+[2017.06.08-12.00.06:255][909]LogSavePackage: Save=3.95ms
+[2017.06.08-12.00.06:255][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombiegirl_W_Kurniawan_Skeleton_Auto217C31244490CB24EDF6364A8D7A62460.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton_Auto2.uasset'
+[2017.06.08-12.00.06:257][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton_Auto2.uasset
+[2017.06.08-12.00.06:258][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset] ([1] browsable assets)...
+[2017.06.08-12.00.06:258][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset]
+[2017.06.08-12.00.06:272][909]LogSavePackage: Save=10.12ms
+[2017.06.08-12.00.06:272][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombiegirl_W_Kurniawan_PhysicsAsset_Auto200EA48A0487CA030AFA32D83DBB15A6D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset_Auto2.uasset'
+[2017.06.08-12.00.06:274][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset_Auto2.uasset
+[2017.06.08-12.00.06:276][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Zombie] ([1] browsable assets)...
+[2017.06.08-12.00.06:288][909]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assest/Zombies_characters/Zombie.Zombie]
+[2017.06.08-12.00.06:288][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombie]
+[2017.06.08-12.00.06:323][909]LogSavePackage: Save=31.86ms
+[2017.06.08-12.00.06:323][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_Auto2494D062D4E06353492E03ABB9AA7438D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_Auto2.uasset'
+[2017.06.08-12.00.06:325][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_Auto2.uasset
+[2017.06.08-12.00.06:327][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Zombie_COL] ([1] browsable assets)...
+[2017.06.08-12.00.06:339][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/Zombie_COL.Zombie_COL]
+[2017.06.08-12.00.06:339][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombie_COL]
+[2017.06.08-12.00.06:357][909]LogSavePackage: Save=15.00ms
+[2017.06.08-12.00.06:357][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_COL_Auto24AB5E31C44D5986FDD6BBB840DDDA676.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_COL_Auto2.uasset'
+[2017.06.08-12.00.06:360][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_COL_Auto2.uasset
+[2017.06.08-12.00.06:361][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Zombie_Skeleton] ([1] browsable assets)...
+[2017.06.08-12.00.06:361][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombie_Skeleton]
+[2017.06.08-12.00.06:367][909]LogSavePackage: Save=3.10ms
+[2017.06.08-12.00.06:367][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_Skeleton_Auto2E37487C74C3628099B9599A1B7E62EA3.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_Skeleton_Auto2.uasset'
+[2017.06.08-12.00.06:369][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_Skeleton_Auto2.uasset
+[2017.06.08-12.00.06:371][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Zombie_PhysicsAsset] ([1] browsable assets)...
+[2017.06.08-12.00.06:371][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Zombie_PhysicsAsset]
+[2017.06.08-12.00.06:382][909]LogSavePackage: Save=8.40ms
+[2017.06.08-12.00.06:382][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_PhysicsAsset_Auto227EAA21540DF46C3BAE1D0833A7196A7.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_PhysicsAsset_Auto2.uasset'
+[2017.06.08-12.00.06:384][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Zombie_PhysicsAsset_Auto2.uasset
+[2017.06.08-12.00.06:386][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Yaku_J_Ignite] ([1] browsable assets)...
+[2017.06.08-12.00.06:399][909]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assest/Zombies_characters/Yaku_J_Ignite.Yaku_J_Ignite]
+[2017.06.08-12.00.06:399][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Yaku_J_Ignite]
+[2017.06.08-12.00.06:427][909]LogSavePackage: Save=24.65ms
+[2017.06.08-12.00.06:427][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yaku_J_Ignite_Auto27A8AE409451192D13FB52D9C6F77191C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yaku_J_Ignite_Auto2.uasset'
+[2017.06.08-12.00.06:430][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yaku_J_Ignite_Auto2.uasset
+[2017.06.08-12.00.06:431][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/yaku_zombie_material] ([1] browsable assets)...
+[2017.06.08-12.00.06:444][909]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assest/Zombies_characters/yaku_zombie_material.yaku_zombie_material]
+[2017.06.08-12.00.06:444][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/yaku_zombie_material]
+[2017.06.08-12.00.06:462][909]LogSavePackage: Save=14.70ms
+[2017.06.08-12.00.06:462][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/yaku_zombie_material_Auto2C5F046704C54B0DA61397F90B2C3EF72.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/yaku_zombie_material_Auto2.uasset'
+[2017.06.08-12.00.06:465][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/yaku_zombie_material_Auto2.uasset
+[2017.06.08-12.00.06:467][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Yakuzombie_diffuse] ([1] browsable assets)...
+[2017.06.08-12.00.06:475][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/Yakuzombie_diffuse.Yakuzombie_diffuse]
+[2017.06.08-12.00.06:475][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Yakuzombie_diffuse]
+[2017.06.08-12.00.06:495][909]LogSavePackage: Save=17.73ms
+[2017.06.08-12.00.06:495][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yakuzombie_diffuse_Auto283F5E15A40CC924344F5D39E40233A9E.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yakuzombie_diffuse_Auto2.uasset'
+[2017.06.08-12.00.06:498][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yakuzombie_diffuse_Auto2.uasset
+[2017.06.08-12.00.06:499][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Yakuzombie_specular] ([1] browsable assets)...
+[2017.06.08-12.00.06:507][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/Yakuzombie_specular.Yakuzombie_specular]
+[2017.06.08-12.00.06:507][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Yakuzombie_specular]
+[2017.06.08-12.00.06:526][909]LogSavePackage: Save=16.05ms
+[2017.06.08-12.00.06:526][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yakuzombie_specular_Auto27518FFC6486991B8CCA60E9669351165.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yakuzombie_specular_Auto2.uasset'
+[2017.06.08-12.00.06:529][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yakuzombie_specular_Auto2.uasset
+[2017.06.08-12.00.06:531][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assest/Zombies_characters/Yakuzombie_normal] ([1] browsable assets)...
+[2017.06.08-12.00.06:539][909]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assest/Zombies_characters/Yakuzombie_normal.Yakuzombie_normal]
+[2017.06.08-12.00.06:539][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Yakuzombie_normal]
+[2017.06.08-12.00.06:562][909]LogSavePackage: Save=20.24ms
+[2017.06.08-12.00.06:562][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yakuzombie_normal_Auto277B1741C4B48AC5D775C6495913FB278.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yakuzombie_normal_Auto2.uasset'
+[2017.06.08-12.00.06:566][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yakuzombie_normal_Auto2.uasset
+[2017.06.08-12.00.06:567][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton] ([1] browsable assets)...
+[2017.06.08-12.00.06:567][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton]
+[2017.06.08-12.00.06:574][909]LogSavePackage: Save=3.38ms
+[2017.06.08-12.00.06:574][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yaku_J_Ignite_Skeleton_Auto2E5412DF24ACE0F4849AD89BBF097933C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton_Auto2.uasset'
+[2017.06.08-12.00.06:577][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton_Auto2.uasset
+[2017.06.08-12.00.06:578][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset] ([1] browsable assets)...
+[2017.06.08-12.00.06:578][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset]
+[2017.06.08-12.00.06:590][909]LogSavePackage: Save=8.57ms
+[2017.06.08-12.00.06:590][909]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yaku_J_Ignite_PhysicsAsset_Auto23B117FF14FB77B9435F7A4877143042A.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset_Auto2.uasset'
+[2017.06.08-12.00.06:592][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Autosaves/Game/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset_Auto2.uasset
+[2017.06.08-12.00.06:592][909]LogFileHelpers: Auto-saving content packages took 0.973
+[2017.06.08-12.51.14:139][231]LogSavePackage: Save=22.09ms
+[2017.06.08-12.51.14:139][231]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/ZombieAIC933DF484ADA9D63B92FA1ADE3A54E80.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Character/ZombieAI.uasset'
+[2017.06.08-12.51.14:143][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Character/ZombieAI.uasset
+[2017.06.08-12.51.21:684][612]LogSavePackage: Save=954.80ms
+[2017.06.08-12.51.21:684][612]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/TheIslandLevel499E38AA4B07A9B242771E914448BE2C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/TheIslandLevel.umap'
+[2017.06.08-12.51.21:692][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/TheIslandLevel.umap
+[2017.06.08-12.52.10:915][612]LogSavePackage: Save=49189.33ms
+[2017.06.08-12.52.10:915][612]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/TheIslandLevel_BuiltData1B1639FA4ACF81CBCA191A86631A1730.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/TheIslandLevel_BuiltData.uasset'
+[2017.06.08-12.52.11:043][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Maps/TheIslandLevel_BuiltData.uasset
+[2017.06.08-13.00.25:055][ 79]LogSavePackage: Save=43.43ms
+[2017.06.08-13.00.25:055][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill9B969AC142433227ECADF1B0FFE8E8F1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill.uasset'
+[2017.06.08-13.00.25:060][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill.uasset
+[2017.06.08-13.00.25:119][ 79]LogSavePackage: Save=16.10ms
+[2017.06.08-13.00.25:119][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Body_MAT1DDEF15A4092B70C0080CB9B8D46C2B8.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT.uasset'
+[2017.06.08-13.00.25:125][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Body_MAT.uasset
+[2017.06.08-13.00.25:737][ 79]LogSavePackage: Save=592.12ms
+[2017.06.08-13.00.25:737][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_diffuse7A2F013749E3C97653F8AE9AF7C745C9.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_diffuse.uasset'
+[2017.06.08-13.00.25:743][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_diffuse.uasset
+[2017.06.08-13.00.25:797][ 79]LogSavePackage: Save=16.33ms
+[2017.06.08-13.00.25:797][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Eyes_MAT61DEE5F749E25B542739088E9F16A6F7.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT.uasset'
+[2017.06.08-13.00.25:802][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Eyes_MAT.uasset
+[2017.06.08-13.00.25:853][ 79]LogSavePackage: Save=13.57ms
+[2017.06.08-13.00.25:853][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_EyeSpec_MAT119E8FA547012DCEF5B13B9FCB98475C.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT.uasset'
+[2017.06.08-13.00.25:858][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_EyeSpec_MAT.uasset
+[2017.06.08-13.00.25:910][ 79]LogSavePackage: Save=14.63ms
+[2017.06.08-13.00.25:910][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Gown_MAT94E0CC4649AF83634F7EDDA19A422B15.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT.uasset'
+[2017.06.08-13.00.25:917][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Gown_MAT.uasset
+[2017.06.08-13.00.25:964][ 79]LogSavePackage: Save=14.57ms
+[2017.06.08-13.00.25:964][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Hair_MAT474C71C542DC2814898B439E8F3065E7.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT.uasset'
+[2017.06.08-13.00.25:970][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Hair_MAT.uasset
+[2017.06.08-13.00.26:669][ 79]LogSavePackage: Save=684.05ms
+[2017.06.08-13.00.26:669][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_normal56182BAB4F28F9063789D899D42543BD.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_normal.uasset'
+[2017.06.08-13.00.26:675][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_normal.uasset
+[2017.06.08-13.00.27:115][ 79]LogSavePackage: Save=424.99ms
+[2017.06.08-13.00.27:115][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_specular6B923C1641E030649BDC8182FA1A26E8.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_specular.uasset'
+[2017.06.08-13.00.27:121][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_specular.uasset
+[2017.06.08-13.00.27:168][ 79]LogSavePackage: Save=15.27ms
+[2017.06.08-13.00.27:169][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_HiMidRes_Teeth_MATE4814C0D4561D0A3B92F6EB0214ACC34.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT.uasset'
+[2017.06.08-13.00.27:174][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_HiMidRes_Teeth_MAT.uasset
+[2017.06.08-13.00.27:191][ 79]LogSavePackage: Save=9.68ms
+[2017.06.08-13.00.27:191][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_PhysicsAsset16D828C64813372E8EC79296803B8C1B.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_PhysicsAsset.uasset'
+[2017.06.08-13.00.27:198][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_PhysicsAsset.uasset
+[2017.06.08-13.00.27:208][ 79]LogSavePackage: Save=3.46ms
+[2017.06.08-13.00.27:208][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Jill_Skeleton16AC3D2B4EE796C9A7A428B3A98366C5.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_Skeleton.uasset'
+[2017.06.08-13.00.27:214][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Jill_Skeleton.uasset
+[2017.06.08-13.00.27:274][ 79]LogSavePackage: Save=23.48ms
+[2017.06.08-13.00.27:274][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yaku_J_Ignite594F86A640BC125689259D9485C81CE1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yaku_J_Ignite.uasset'
+[2017.06.08-13.00.27:281][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yaku_J_Ignite.uasset
+[2017.06.08-13.00.27:297][ 79]LogSavePackage: Save=9.28ms
+[2017.06.08-13.00.27:297][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yaku_J_Ignite_PhysicsAssetEF5BAFBD4E277040EEDCF8914F03E0A1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset.uasset'
+[2017.06.08-13.00.27:302][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yaku_J_Ignite_PhysicsAsset.uasset
+[2017.06.08-13.00.27:313][ 79]LogSavePackage: Save=3.32ms
+[2017.06.08-13.00.27:314][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yaku_J_Ignite_SkeletonF667A17247376510D668569AA5BE9981.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton.uasset'
+[2017.06.08-13.00.27:319][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yaku_J_Ignite_Skeleton.uasset
+[2017.06.08-13.00.27:372][ 79]LogSavePackage: Save=14.74ms
+[2017.06.08-13.00.27:372][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/yaku_zombie_material126E267E4A8845AC3B90BEA10FAB57D1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/yaku_zombie_material.uasset'
+[2017.06.08-13.00.27:378][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/yaku_zombie_material.uasset
+[2017.06.08-13.00.27:983][ 79]LogSavePackage: Save=590.42ms
+[2017.06.08-13.00.27:983][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yakuzombie_diffuseFDBD3B5447E7905B48045B8DABBC84B5.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yakuzombie_diffuse.uasset'
+[2017.06.08-13.00.27:990][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yakuzombie_diffuse.uasset
+[2017.06.08-13.00.28:518][ 79]LogSavePackage: Save=511.30ms
+[2017.06.08-13.00.28:518][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yakuzombie_normal08D7BFF64AC645BBAE9F99B7F3AD4DA4.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yakuzombie_normal.uasset'
+[2017.06.08-13.00.28:524][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yakuzombie_normal.uasset
+[2017.06.08-13.00.29:061][ 79]LogSavePackage: Save=521.46ms
+[2017.06.08-13.00.29:061][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Yakuzombie_specularF0D498E649B55308BFB648AB47A2D30A.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yakuzombie_specular.uasset'
+[2017.06.08-13.00.29:071][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Yakuzombie_specular.uasset
+[2017.06.08-13.00.29:149][ 79]LogSavePackage: Save=38.24ms
+[2017.06.08-13.00.29:149][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/ZombieB2ADE853444B230FFC7ACB8A80B75F24.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie.uasset'
+[2017.06.08-13.00.29:163][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie.uasset
+[2017.06.08-13.00.29:222][ 79]LogSavePackage: Save=20.80ms
+[2017.06.08-13.00.29:222][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_COL627C5D1146A7810E117CFF9D693BA5BE.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie_COL.uasset'
+[2017.06.08-13.00.29:307][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie_COL.uasset
+[2017.06.08-13.00.29:974][ 79]LogSavePackage: Save=642.19ms
+[2017.06.08-13.00.29:974][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/zombie_diffuse6C60239C478D47308EBD92A051F8DDB1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/zombie_diffuse.uasset'
+[2017.06.08-13.00.29:985][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/zombie_diffuse.uasset
+[2017.06.08-13.00.30:409][ 79]LogSavePackage: Save=402.45ms
+[2017.06.08-13.00.30:409][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/zombie_normal392D925D4D8CCFA6DFF8A495FF57BDB2.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/zombie_normal.uasset'
+[2017.06.08-13.00.30:416][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/zombie_normal.uasset
+[2017.06.08-13.00.30:432][ 79]LogSavePackage: Save=9.06ms
+[2017.06.08-13.00.30:432][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_PhysicsAsset51B0F8E1413C0D584B08B5B3278B782D.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie_PhysicsAsset.uasset'
+[2017.06.08-13.00.30:494][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie_PhysicsAsset.uasset
+[2017.06.08-13.00.30:505][ 79]LogSavePackage: Save=3.87ms
+[2017.06.08-13.00.30:505][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombie_Skeleton6FBFA52244BC43F72D400FB2854F0BD8.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie_Skeleton.uasset'
+[2017.06.08-13.00.30:511][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombie_Skeleton.uasset
+[2017.06.08-13.00.30:828][ 79]LogSavePackage: Save=302.21ms
+[2017.06.08-13.00.30:828][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/zombie_specular217DB60148D1A09708D0C6AB4D382326.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/zombie_specular.uasset'
+[2017.06.08-13.00.30:834][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/zombie_specular.uasset
+[2017.06.08-13.00.30:881][ 79]LogSavePackage: Save=13.84ms
+[2017.06.08-13.00.30:881][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/ZombieGirl_Material0F6AEC804C6D2765D55453A0053517F1.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/ZombieGirl_Material.uasset'
+[2017.06.08-13.00.30:888][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/ZombieGirl_Material.uasset
+[2017.06.08-13.00.30:948][ 79]LogSavePackage: Save=22.82ms
+[2017.06.08-13.00.30:948][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombiegirl_W_KurniawanC91CC9444A29ADB0173F73A252284308.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombiegirl_W_Kurniawan.uasset'
+[2017.06.08-13.00.30:954][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombiegirl_W_Kurniawan.uasset
+[2017.06.08-13.00.30:971][ 79]LogSavePackage: Save=9.62ms
+[2017.06.08-13.00.30:971][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombiegirl_W_Kurniawan_PhysicsAsset978FDC2742EF7E75D20389AC1A56ACC8.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset.uasset'
+[2017.06.08-13.00.30:976][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_PhysicsAsset.uasset
+[2017.06.08-13.00.30:989][ 79]LogSavePackage: Save=3.50ms
+[2017.06.08-13.00.30:989][ 79]LogSavePackage: Moving '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Zombiegirl_W_Kurniawan_SkeletonC5BC67864F7DD242E181409AD7F8BF65.tmp' to '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton.uasset'
+[2017.06.08-13.00.30:995][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Assest/Zombies_characters/Zombiegirl_W_Kurniawan_Skeleton.uasset
+[2017.06.08-13.00.31:068][ 79]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.08-13.00.31:293][ 80]Cmd: QUIT_EDITOR
+[2017.06.08-13.00.31:334][ 80]LogExit: Preparing to exit.
+[2017.06.08-13.00.31:763][ 80]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' was aborted.
+[2017.06.08-13.00.31:935][ 80]LogExit: Editor shut down
+[2017.06.08-13.00.31:940][ 80]LogExit: Transaction tracking system shut down
+[2017.06.08-13.00.33:405][ 80]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.08-13.00.33:405][ 80]LogExit: Object subsystem successfully closed.
+[2017.06.08-13.00.33:493][ 80]LogD3D11RHI: Shutdown
+[2017.06.08-13.00.33:493][ 80]LogD3D11RHI: CleanupD3DDevice
+[2017.06.08-13.00.33:820][ 80]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.08-13.00.33:851][ 80]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.06.08-13.00.33:851][ 80]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2017.06.08-13.00.33:851][ 80]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (530)
+[2017.06.08-13.00.33:851][ 80]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.08-13.00.33:851][ 80]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.08-13.00.33:852][ 80]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.08-13.00.33:852][ 80]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.08-13.00.33:852][ 80]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.08-13.00.33:852][ 80]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.08-13.00.33:852][ 80]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.08-13.00.33:853][ 80]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.08-13.00.33:853][ 80]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.08-13.00.33:853][ 80]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.08-13.00.33:853][ 80]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Collections/' was aborted.
+[2017.06.08-13.00.33:853][ 80]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/Developers/bilal/Collections/' was aborted.
+[2017.06.08-13.00.33:853][ 80]LogDirectoryWatcher: A directory notification for 'C:/Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Saved/Collections/' was aborted.
+[2017.06.08-13.00.33:853][ 80]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.08-13.00.33:854][ 80]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.08-13.00.33:855][ 80]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.08-13.00.33:855][ 80]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.08-13.00.33:855][ 80]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.08-13.00.33:855][ 80]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.08-13.00.33:855][ 80]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.08-13.00.34:741][ 80]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.08-13.00.34:741][ 80]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.08-13.00.34:741][ 80]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.08-13.00.34:742][ 80]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.08-13.00.34:795][ 80]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.08-13.00.34:803][ 80]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.08-13.00.34:804][ 80]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.08-13.00.35:056][ 80]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.08-13.00.35:057][ 80]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.08-13.00.35:058][ 80]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.08-13.00.35:058][ 80]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.08-13.00.35:058][ 80]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.08-13.00.35:058][ 80]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.08-13.00.35:058][ 80]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.08-13.00.35:058][ 80]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.08-13.00.35:060][ 80]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.08-13.00.35:060][ 80]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.08-13.00.35:060][ 80]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.08-13.00.35:061][ 80]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.08-13.00.35:061][ 80]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.08-13.00.35:061][ 80]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.08-13.00.35:061][ 80]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.08-13.00.35:061][ 80]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.08-13.00.35:061][ 80]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.08-13.00.35:163][ 80]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.08-13.00.35:264][ 80]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.08-13.00.35:264][ 80]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.08-13.00.35:264][ 80]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.08-13.00.35:264][ 80]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.08-13.00.35:264][ 80]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.08-13.00.35:264][ 80]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.08-13.00.35:266][ 80]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.08-13.00.35:267][ 80]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.08-13.00.35:273][ 80]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.08-13.00.35:273][ 80]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.08-13.00.35:273][ 80]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.08-13.00.35:273][ 80]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.08-13.00.35:273][ 80]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.08-13.00.35:273][ 80]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.08-13.00.35:450][ 80]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.08-13.00.35:450][ 80]LogDirectoryWatcher: A directory notification for '../../../../../../Users/bilal/Documents/Unreal Projects/The_Walking_Dead_Project/TheWalkingDeadPro/Content/' was aborted.
+[2017.06.08-13.00.35:450][ 80]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.08-13.00.35:450][ 80]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.08-13.00.35:460][ 80]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.08-13.00.35:461][ 80]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.08-13.00.35:513][ 80]LogDerivedDataCache: Shutdown
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.08-13.00.35:513][ 80]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.08-13.00.35:514][ 80]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.08-13.00.35:514][ 80]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.08-13.00.35:514][ 80]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.08-13.00.35:514][ 80]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6ED37722-4D9B-7F7B-7C35-769AD1CDDC43%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=d9fb212d4af7ccf64d9c048fdf55f2de%7Ce3cdaafc32b34c16bc7ae7d9e4d8081c%7C7f0baf09-b182-4738-84f4-d10d611646ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.08-13.00.35:544][ 80]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.08-13.00.35:546][ 80]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.08-13.00.35:547][ 80]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.08-13.00.35:553][ 80]LogExit: Exiting.
+[2017.06.08-13.00.35:569][ 80]Log file closed, 06/08/17 15:00:35
